@@ -1,0 +1,1 @@
+[Скачать Encoder Region of Interest Editor](https://obsproject.com/forum/resources/encoder-region-of-interest-editor.1904/), плагин для повышения качества изображения в определённой области (позволяет улучшить качество веб-камеры при низком битрейте)

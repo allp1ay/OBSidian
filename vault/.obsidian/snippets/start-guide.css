@@ -1,0 +1,22 @@
+.button-guide {
+      width:320px;
+      height:55px;
+      display:block;
+      background-color:#2c2835 !important;
+
+    }
+    .button-guide::before {
+      content:'Начать Установку';
+      color:#a882ff;
+      font:bold 24px/1 Inter;
+      font-size:2rem;
+      display:block;
+      margin-bottom:-19px;
+     +5sition:all .2s ease-in-out !important;
+    }
+    .button-guide::before obs{
+      color:#1a1a1a;
+    }
+    .button-guide:hover {
+     background-color:#302c3a !important;
+    }

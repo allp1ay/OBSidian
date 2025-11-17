@@ -1,0 +1,1 @@
+[Скачать Asynchronous Audio Filter](https://obsproject.com/forum/resources/asynchronous-audio-filter.1482/), плагин для корректной работы аудио и исправления проблем совместимости с некоторыми звуковыми картами

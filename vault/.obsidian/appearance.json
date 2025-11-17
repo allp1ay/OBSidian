@@ -1,0 +1,20 @@
+{
+  "enabledCssSnippets": [
+    "callouts-fix",
+    "horizontal-line-in-reading",
+    "1",
+    "start",
+    "gallery-view-widener",
+    "Line",
+    "popup",
+    "Properties",
+    "start-guide",
+    "start-update",
+    "swaps"
+  ],
+  "showViewHeader": false,
+  "showRibbon": false,
+  "theme": "obsidian",
+  "cssTheme": "hidden-tabs-draggable",
+  "accentColor": "#8a5cf5"
+}

@@ -1,0 +1,70 @@
+/* Auto-Hide Tabs Theme - Top Trigger Hybrid */
+:root {
+  --tab-show-delay: 0.1s;
+  --tab-hide-delay: 0.4s;
+  --trigger-height: 8px;
+  --header-height: 40px;
+}
+
+/* Фиксированная панель вкладок (скрыта по умолчанию) */
+.workspace-tab-header-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--header-height);
+  z-index: var(--layer-popover);
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: 
+    opacity 0.15s ease,
+    transform 0.3s ease;
+  pointer-events: none;
+  background: var(--background-primary);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Невидимая триггерная зона вверху окна */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--trigger-height);
+  z-index: calc(var(--layer-popover) + 1);
+  background: transparent;
+  pointer-events: none;
+}
+
+/* Показ панели при наведении на верхнюю зону */
+body:hover::before,
+.workspace-tab-header-container:hover {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+  transition-delay: var(--tab-show-delay);
+}
+
+/* Задержка скрытия при уходе с панели */
+.workspace-tab-header-container {
+  transition-delay: var(--tab-hide-delay);
+}
+
+/* Фикс для контента под фиксированной панелью */
+.workspace-split.mod-root .workspace-leaf-content {
+  margin-top: var(--header-height);
+  height: calc(100% - var(--header-height));
+  transition: margin-top 0.3s ease;
+}
+
+/* Возвращаем контент на место при скрытой панели */
+body:not(:hover) .workspace-split.mod-root .workspace-leaf-content {
+  margin-top: 0;
+  height: 100%;
+}
+
+/* Гарантируем видимость панели при активном файле */
+.workspace-tab-header-container-inner {
+  opacity: 1 !important;
+}

@@ -1,0 +1,48 @@
+{
+  "closeWithBackspace": true,
+  "showPluginName": true,
+  "fileSearchPrefix": "/",
+  "tagSearchPrefix": "#",
+  "commandSearchHotkey": "p",
+  "fileSearchHotkey": "o",
+  "tagSearchHotkey": "t",
+  "suggestionLimit": 50,
+  "recentAbovePinned": false,
+  "hyperKeyOverride": false,
+  "displayOnlyNotesNames": false,
+  "hideMdExtension": false,
+  "recentlyUsedText": "(recently used)",
+  "macros": [
+    {
+      "name": "Music Starter",
+      "commandIds": [
+        "obsidian-hotkeys-for-specific-files:0. Начальный Экран/Стартовый Экран.md",
+        "obsidian-audio-player:start-audio"
+      ],
+      "delay": 200
+    },
+    {
+      "name": "Start OBS Guide",
+      "commandIds": [
+        "obsidian-hotkeys-for-specific-files:0. Начальный Экран/Управление Инструкцией.md",
+        "obsidian-audio-player:stop-audio"
+      ],
+      "delay": 200
+    },
+    {
+      "name": "Start OBS Update",
+      "commandIds": [
+        "obsidian-hotkeys-for-specific-files:0. Начальный Экран/Управление Инструкцией (обновление).md",
+        "obsidian-audio-player:stop-audio"
+      ],
+      "delay": 200
+    }
+  ],
+  "hotkeyStyle": "auto",
+  "createNewFileMod": "Mod",
+  "openInNewTabMod": "Shift",
+  "hiddenCommands": [],
+  "hiddenFiles": [],
+  "hiddenTags": [],
+  "fileTypeExclusion": []
+}

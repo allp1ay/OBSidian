@@ -1,0 +1,1 @@
+[Скачать Additional Chapter Hotkeys](https://obsproject.com/forum/resources/additional-chapter-hotkeys-30-2.1957/), плагин для создания меток глав с отдельными названиями и сочетаниями клавиш

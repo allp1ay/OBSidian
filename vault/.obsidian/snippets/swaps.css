@@ -1,0 +1,21 @@
+.button-swaps {
+      width:200px;
+      height:200px;
+      display:block;
+      position:absolute;
+      background-color:#dadada !important;
+      top:+50px;
+      right:+12px;
+    }
+    .button-swaps::before {
+      content:'🎶';
+      color:#c8c8c8;
+      font-size:2.3rem;
+      display:block;
+      margin-bottom:-10px;
+      transition:all .2s ease-in-out !important;
+    }
+    .button-swaps:hover::before {
+      color:#3a3a3a;
+    }
+

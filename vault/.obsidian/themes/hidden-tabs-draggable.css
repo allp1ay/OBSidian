@@ -1,0 +1,68 @@
+/* Скрываем панель вкладок */
+.workspace-tab-header-container {
+  display: none !important;
+}
+
+/* Корректируем основной контент */
+.workspace-split.mod-root {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Устанавливаем высоту области */
+:root {
+  --header-height: 41px;
+}
+
+/* Область перетаскивания с вырезом под кнопки */
+.workspace {
+  position: relative;
+}
+
+.workspace::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% - 140px); /* Оставляем место справа для кнопок */
+  height: var(--header-height);
+  -webkit-app-region: drag;
+  z-index: 100;
+  background-color: transparent;
+}
+
+/* Кнопки управления окном */
+.titlebar-button-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 101; /* Выше области перетаскивания */
+  -webkit-app-region: no-drag !important;
+  pointer-events: auto !important;
+}
+
+/* Для macOS - кнопки слева */
+.mod-macos .titlebar-button-container {
+  left: 0;
+  right: auto;
+}
+
+/* Адаптируем область перетаскивания под macOS */
+.mod-macos .workspace::before {
+  left: 70px; /* Отступ под кнопки macOS */
+  width: calc(100% - 70px); /* Ширина минус отступ */
+}
+
+/* Исключаем другие элементы из перетаскивания */
+.workspace-ribbon,
+.workspace-ribbon *,
+.view-actions,
+.view-action,
+.search-input-container {
+  -webkit-app-region: no-drag !important;
+}
+
+/* Дополнительно: стили для кнопок при наведении */
+.titlebar-button:hover {
+  background-color: var(--background-modifier-hover);
+}

@@ -1,0 +1,17 @@
+/* Альтернативное решение */
+.workspace-tab-header-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--header-height);
+  z-index: 100;
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: all 2s ease;
+}
+
+body:hover .workspace-tab-header-container {
+  opacity: 1;
+  transform: translateY(0);
+}

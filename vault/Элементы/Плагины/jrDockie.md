@@ -1,0 +1,1 @@
+[Скачать jrDockie](https://obsproject.com/forum/resources/jrdockie-save-and-load-window-and-dock-layouts.1955/), плагин для создания пресетов положения док-панелей

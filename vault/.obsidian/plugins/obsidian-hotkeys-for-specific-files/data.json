@@ -1,0 +1,22 @@
+{
+  "files": [
+    {
+      "useMoment": false,
+      "file": "0. Начальный Экран/Стартовый Экран.md"
+    },
+    {
+      "useMoment": false,
+      "file": "0. Начальный Экран/Управление Инструкцией.md"
+    },
+    {
+      "useMoment": false,
+      "file": "0. Начальный Экран/Оглавление.md"
+    },
+    {
+      "useMoment": false,
+      "file": "0. Начальный Экран/Управление Инструкцией (обновление).md"
+    }
+  ],
+  "useExistingPane": true,
+  "useHoverEditor": false
+}

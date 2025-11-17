@@ -1,0 +1,1 @@
+{"rate_control":"CBR","bitrate":8400,"keyint_sec":2,"preset":"p6","multipass":"qres","lookahead":false,"bf":2,"opts":"enableAQ=1 enableTemporalAQ=1 aqStrength=13"}

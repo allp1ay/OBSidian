@@ -1,0 +1,1 @@
+{"bf":0,"rate_control":"QVBR","keyint_sec":2,"cqp":20,"ffmpeg_opts":"MinQP=0 MaxQP=23 HighMotionQualityBoostEnable=true"}

@@ -1,0 +1,10 @@
+{
+  "id": "auto-close-release-notes",
+  "name": "Auto Close Release Notes",
+  "version": "0.1.0",
+  "minAppVersion": "1.0.0",
+  "description": "Automatically closes the Release Notes tab when it opens.",
+  "author": "ntchff",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}

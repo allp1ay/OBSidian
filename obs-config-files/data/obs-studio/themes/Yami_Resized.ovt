@@ -1,0 +1,556 @@
+/******************************************************************************/
+/*   This program is free software: you can redistribute it and/or modify     */
+/*   it under the terms of the GNU General Public License as published by     */
+/*   the Free Software Foundation, either version 2 of the License, or        */
+/*   (at your option) any later version.                                      */
+/*                                                                            */
+/*   This program is distributed in the hope that it will be useful,          */
+/*   but WITHOUT ANY WARRANTY; without even the implied warranty of           */
+/*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the            */
+/*   GNU General Public License for more details.                             */
+/*                                                                            */
+/*   You should have received a copy of the GNU General Public License        */
+/*   along with this program.  If not, see <http://www.gnu.org/licenses/>.    */
+/******************************************************************************/
+
+
+/******************************************************************************/
+/*   Yami Resized 2.1 by @Monsteer                                            */
+/*   Original Yami Theme by @Warchamp7                                        */
+/******************************************************************************/
+
+@OBSThemeMeta {
+    name: 'Resized';
+    id: 'com.obsproject.Yami.Resized';
+    extends: 'com.obsproject.Yami';
+    author: 'Monsteer';
+    dark: 'true';
+}
+
+@OBSThemeVars {
+    /* Base Theme Colors */
+    --palette_dark: var(--grey7);
+    
+    /* Layout */
+    /* Configurable Values */
+    --font_base_value: 9;
+    --spacing_base_value: 4;
+    --padding_base_value: 4;
+
+    --font_base: calc(1pt * var(--font_base_value));
+    --font_small: calc(0.9pt * var(--font_base_value));
+    --font_large: calc(1.1pt * var(--font_base_value));
+    --font_medium: calc(1.3pt * var(--font_base_value));
+    --font_xlarge: calc(1.5pt * var(--font_base_value));
+
+    --font_heading: calc(2.5pt * var(--font_base_value));
+
+    --icon_base: calc(7px + var(--font_base_value));
+    --icon_small: calc(4px + var(--font_base_value));
+
+    --spacing_base: calc(0.5px * var(--spacing_base_value));
+    --spacing_large: calc(1px * var(--spacing_base_value));
+    --spacing_small: calc(0.25px * var(--spacing_base_value));
+    --spacing_title: 4px;
+
+    --padding_base: calc(0.5px * var(--padding_base_value));
+    --padding_large: calc(1px * var(--padding_base_value));
+    --padding_medium: calc(1.25px * var(--padding_base_value));
+    --padding_xlarge: calc(1.75px * var(--padding_base_value));
+    --padding_small: calc(0.25px * var(--padding_base_value));
+
+    --padding_wide: calc(8px + calc(2 * var(--padding_base_value)));
+    --padding_menu: calc(4px + calc(2 * var(--padding_base_value)));
+
+    --padding_base_border: calc(var(--padding_base) + 1px);
+
+    --spinbox_button_height: calc(var(--input_height_half) - 1px);
+
+    --volume_slider: calc(calc(4px + var(--font_base_value)) / 4);
+    --volume_slider_box: calc(var(--volume_slider) * 4);
+    --volume_slider_label: calc(var(--volume_slider_box) * 2);
+
+    --scrollbar_size: 12px;
+    --settings_scrollbar_size: calc(var(--scrollbar_size) + 9px);
+
+    /* Inputs / Controls */
+
+    --border_radius: 4px;
+    --border_radius_small: 2px;
+    --border_radius_large: 6px;
+
+    --input_font_scale: calc(var(--font_base_value) * 2.2);
+    --input_font_padding: calc(var(--padding_base_value) * 1.5);
+
+    --input_height_base: calc(var(--input_font_scale) + var(--input_font_padding));
+    --input_padding: var(--padding_large);
+    --input_height: calc(var(--input_height_base) - calc(var(--input_padding) * 2));
+    --input_height_half: calc(var(--input_height_base) / 2);
+
+    --spacing_input: var(--spacing_base);
+
+}
+
+/* Resizes */
+
+.label-preview-title,
+* [themeID="previewProgramLabels"] {
+    font-size: var(--font_medium);
+}
+
+QDockWidget {
+    font-size: var(--font_large);
+}
+
+QDockWidget::title {
+    padding: var(--padding_large);
+}
+
+OBSBasicStats QFrame {
+    font-size: var(--font_base);
+    min-width: auto;
+}
+
+QDockWidget#statsDock QFrame {
+    font-size: var(--font_small);
+}
+
+QTabBar::tab {
+    padding: var(--padding_medium) var(--padding_menu);
+    margin: 1px 0px;
+    margin-right: 2px;
+}
+
+QTabBar::tab:bottom:first {
+    margin-left: 3px;
+}
+
+QDockWidget::float-button {
+    icon-size: var(--icon_small);
+}
+
+#contextSourceLabel {
+    min-width: 188px;
+}
+
+#contextContainer QPushButton,
+#contextContainer QPushButton[themeID2=contextBarButton] {
+    padding: 5px 12px;
+    margin: 3px 0px;
+    min-height: 8px;
+}
+
+QGroupBox {
+    font-size: var(--font_large);
+}
+
+QComboBox,
+QDateTimeEdit {
+    padding: var(--padding_base_border) var(--padding_large);
+    padding-left: 10px;
+}
+
+QLineEdit {
+    padding: var(--input_padding) var(--padding_small) var(--input_padding) var(--input_padding);
+    padding-left: 8px;
+}
+
+OBSBasicSettings QLineEdit {
+    max-height: 20px;
+}
+
+OBSBasicFilters QListWidget QLineEdit {
+    margin: 0px;
+    padding: 0px;
+}
+
+QWidget#TextSourceToolbar QLineEdit { /* Pick a font separation */
+    margin-bottom: 3px;
+}
+
+SourceTreeItem {
+    padding: var(--padding_base_border) var(--padding_large);
+}
+
+/* Plugin fixes */
+
+SourceTreeSubItemCheckBox::indicator { /* fix for vertical sources */
+    width: var(--icon_small);
+    height: var(--icon_small);
+}
+
+SourceTreeSubItemCheckBox::indicator:checked, /* fix for vertical sources */
+SourceTreeSubItemCheckBox::indicator:checked:hover { /* fix for vertical sources */
+    image: url(theme:Dark/expand.svg);
+}
+
+SourceTreeSubItemCheckBox::indicator:unchecked, /* fix for vertical sources */
+SourceTreeSubItemCheckBox::indicator:unchecked:hover { /* fix for vertical sources */
+    image: url(theme:Dark/collapse.svg);
+}
+
+QDockWidget#MediaControls QWidget {
+    background: transparent;
+    border: 1px solid transparent;
+}
+
+QDockWidget#MediaControls QFrame {
+    border-top: none;
+    background: var(--grey6);
+    border: 1px solid var(--border_color);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+QDockWidget#MediaControls > QWidget {
+    background: var(--grey6);
+    border-bottom-left-radius: var(--border_radius);
+    border-bottom-right-radius: var(--border_radius);
+    border: 1px solid var(--border_color);
+    border-top: none;
+}
+
+QDockWidget#MediaControls QLabel {
+    background: transparent;
+    border: 1px solid transparent;
+}
+
+QDockWidget#MediaControls QPushButton {
+    background-color: var(--input_bg);
+    min-width: 16px;
+    min-height: 14px;
+    padding: 4px 14px;
+}
+
+QDockWidget#MediaControls QPushButton::flat {
+    background-color: rgb(60,64,75);
+}
+
+QDockWidget#MediaControls QPushButton:checked {
+    background-color: rgb(40,76,184);
+}
+
+QDockWidget#MediaControls QPushButton:hover {
+    border-color: var(--input_border_hover);
+}
+
+QDockWidget#MediaControls QPushButton:pressed {
+    background-color: rgb(25,27,38);
+}
+
+QDockWidget#MediaControls QPushButton:disabled {
+    background-color: rgb(25,27,38);
+}
+
+QDockWidget#VerticalDownstreamKeyerDock QListWidget,
+QDockWidget#DownstreamKeyerDock QListWidget {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+QDockWidget#DownstreamKeyerDock QFrame {
+    padding-right: -4px;
+    margin-right: -4px;
+}
+
+QDockWidget#DownstreamKeyerDock QListWidget {
+    padding-right: 2px;
+    margin-right: 0px;
+}
+
+QDockWidget#DownstreamKeyerDock .QWidget {
+    padding-right: -4px;
+    margin-right: -4px;
+}
+
+MultistreamDock QScrollArea QWidget {
+    font-size: var(--font_large);
+}
+
+MultistreamDock QGroupBox {
+    border: 3px solid var(--grey7);
+    border-radius: 6px;
+}
+
+MultistreamDock QScrollBar:vertical {
+    background-color: var(--grey7);
+    border-radius: 0px;
+}
+
+QDockWidget#obs-multi-rtmp-dock .QWidget {
+    background-color: transparent;
+}
+
+QDockWidget#obs-multi-rtmp-dock QFrame[frameShape="6"] {
+    border: 1px solid var(--border_color);
+    border-radius: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: none;
+    background-color: var(--grey6);
+}
+
+QTreeView {
+    padding: var(--spacing_base);
+}
+
+QTreeView::item {
+    padding: var(--padding_large) var(--padding_large);
+    background-color: var(--grey6);
+    border-radius: var(--border_radius);
+    color: var(--text);
+    border: 1px solid transparent;
+}
+
+QTreeView::branch {
+    background-color: var(--grey6);
+}
+
+QTreeView::branch:has-siblings:!adjoins-item {
+    background-color: var(--grey6);
+    image: url();
+}
+
+QTreeView::branch:has-siblings:adjoins-item {
+    background-color: var(--grey6);
+    image: url();
+}
+
+QTreeView::branch:!has-children:!has-siblings:adjoins-item {
+    background-color: var(--grey6);
+    image: url();
+}
+
+QTreeView::branch:closed:has-children:has-siblings,
+QTreeView::branch:has-children:!has-siblings:closed {
+    background-color: var(--grey6);
+    image: url(theme:Dark/expand.svg);
+    padding: 4px;
+}
+
+QTreeView::branch:open:has-children:has-siblings,
+QTreeView::branch:open:has-children:!has-siblings {
+    background-color: var(--grey6);
+    image: url(theme:Dark/collapse.svg);
+    padding: 4px;
+}
+
+QTreeView::branch:selected {
+    background-color: var(--grey6);
+}
+
+QTreeView::item:selected {
+    background-color: var(--primary);
+}
+
+QTreeView::item:hover,
+QTreeView::item:selected:hover {
+    background-color: var(--primary_light);
+    color: var(--text);
+}
+
+QTreeView::item:disabled,
+QTreeView::item:disabled:hover {
+    background: transparent;
+    color: var(--text_disabled);
+}
+
+QTreeView QLineEdit {
+    padding:  0;
+    padding-bottom: 1px;
+    margin: 0;
+    border: 1px solid var(--white1);
+    border-radius: var(--border_radius);
+}
+
+QTreeView QLineEdit:focus {
+    border: 1px solid var(--grey1);
+}
+
+QDockWidget#STVDock QFrame {
+    background-color: var(--grey6);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+QDockWidget#STVDock QWidget {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+QDockWidget#STVDock QTreeView {
+    padding: 2px 2px 2px 0px;
+}
+
+QDockWidget#STVDock QToolButton {
+    margin-right: 3px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+QDockWidget#STVDock QToolButton#stvAddFolder {
+    margin-left: 4px;
+}
+
+QDockWidget#STVDock .QFrame[frameShape="6"] {
+    border: 1px solid var(--border_color);
+    border-top: none;
+}
+
+QDockWidget#STVDock QFrame[frameShape="6"] {
+    padding: 0px;
+}
+
+CanvasSourcesDock#contextContainer,
+CanvasScenesDock#contextContainer {
+    border: 1px solid var(--border_color);
+    border-radius: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+QDockWidget CanvasTransitionsDock#contextContainer {
+    border: 1px solid var(--border_color);
+    border-radius: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+CanvasTransitionsDock QComboBox {
+    margin: 2px 0px 1px 0px;
+    min-height: 19px;
+}
+
+CanvasTransitionsDock {
+    min-height: 71px;
+    margin: 0px;
+    padding: 0px;
+}
+
+QDockWidget#VerticalDownstreamKeyerDock QListWidget,
+QDockWidget#DownstreamKeyerDock QListWidget {
+    border-radius: 0px;
+    border: 1px solid var(--border_color);
+    border-bottom: none;
+}
+
+QDockWidget#VerticalDownstreamKeyerDock QToolBar,
+QDockWidget#DownstreamKeyerDock QToolBar {
+    background-color: var(--grey6);
+    margin: 0px;
+    border: 0px;
+    padding: 5px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: 1px solid var(--border_color);
+    border-top: none;
+}
+
+QDockWidget#VerticalDownstreamKeyerDock QTabWidget::pane,
+QDockWidget#DownstreamKeyerDock QTabWidget::pane {
+    border-top: 0px solid transparent;
+}
+
+CanvasSourcesDock SourceTreeItem {
+    padding: 2px;
+    margin: 0px;
+}
+
+QDockWidget #contextContainer {
+    margin-top: 0px;
+    border-radius: 0px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: 1px solid var(--border_color);
+    border-top: none;
+}
+
+QDockWidget CanvasTransitionsDock#contextContainer QPushButton {
+    padding: 2px 2px;
+    margin: 0px 0px 0px 3px;
+}
+
+#transitionsDock QPushButton {
+    margin: 1px 0px 3px 1px;
+}
+
+CanvasSourcesDock QToolButton,
+CanvasScenesDock QToolButton {
+    margin-bottom: 2px;
+}
+
+#scenesFrame QToolButton,
+#sourcesFrame QToolButton {
+    margin-bottom: 2px;
+}
+
+QDockWidget#STVDock QTreeView {
+    margin: 2px 2px 0px 0px;
+    padding: 0px;
+    border: none;
+}
+
+QDockWidget#STVDock QToolButton#stvAddFolder {
+    margin-left: 2px;
+}
+
+QDockWidget#AudioMonitorDock QFrame {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: none;
+}
+
+QDockWidget#AudioMonitorDock QWidget {
+    background: transparent;
+}
+
+QDockWidget#AudioMonitorDock > QWidget {
+    background: var(--grey6);
+    border: 1px solid var(--border_color);
+    border-top: none;
+}
+
+QDockWidget#AudioMonitorDock MuteCheckBox::indicator {
+    margin-left: 3px;
+}
+
+QDockWidget#AudioMonitorDock QCheckBox[lockCheckBox=true] {
+    margin-right: 4px;
+}
+
+TransitionTableDialog .QWidget {
+    background-color: transparent;
+}
+
+TransitionTableDialog QFrame[frameShape="6"] {
+    background-color: var(--grey6);
+}
+
+QDockWidget#toolbarDock QToolButton#floatButton {
+    qproperty-icon: url(theme:Dark/sources/window.svg);
+}
+
+QDockWidget#toolbarDock QToolButton {
+    margin: -2px;
+    border-radius: 11px;
+}
+
+QDockWidget#toolbarDock {
+    height: 36px;
+    min-height: 36px;
+    max-height: 36px;
+}
+
+* [themeID="addIconSmall"] {
+    qproperty-icon: url(theme:Dark/plus.svg);
+}
+
+* [themeID="removeIconSmall"] {
+    qproperty-icon: url(theme:Dark/trash.svg);
+}

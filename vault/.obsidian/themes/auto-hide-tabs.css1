@@ -1,0 +1,45 @@
+/* Auto-Hide Tabs Theme for Obsidian */
+/* Панель вкладок скрыта и появляется при наведении */
+
+:root {
+  --tab-show-delay: 0.1s;
+  --tab-hide-delay: 0.4s;
+  --trigger-height: 20px;
+}
+
+/* Основной контейнер вкладок */
+.workspace-tab-header-container {
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: 
+    opacity 0.15s ease var(--tab-show-delay),
+    height 0.2s ease;
+}
+
+/* Триггерная зона вверху окна */
+.workspace-tab-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--trigger-height);
+  z-index: 100;
+  background: transparent;
+}
+
+/* Показ вкладок при наведении */
+.workspace-tab-container:hover .workspace-tab-header-container {
+  height: var(--header-height);
+  opacity: 1;
+  transition: 
+    opacity 0.15s ease,
+    height 0.2s ease;
+}
+
+/* Фикс для контента при скрытых вкладках */
+.workspace-tab-container .workspace-leaf-content {
+  height: calc(100% - var(--trigger-height));
+  margin-top: var(--trigger-height);
+}

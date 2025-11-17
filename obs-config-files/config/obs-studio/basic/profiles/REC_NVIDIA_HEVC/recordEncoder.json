@@ -1,0 +1,1 @@
+{"rate_control":"CQVBR","target_quality":21,"max_bitrate":800000,"keyint_sec":2,"preset":"p1","lookahead":true,"bf":0,"opts":"enableMaxQP=1 maxQP=28 enableLookahead=1 lookaheadDepth=32 enableAQ=1 enableTemporalAQ=1 aqStrength=8"}

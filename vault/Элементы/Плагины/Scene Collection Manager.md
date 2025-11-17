@@ -1,0 +1,1 @@
+[Скачать Scene Collection Manager](https://obsproject.com/forum/resources/scene-collection-manager.1434/), плагин для менеджмента коллекций сцен

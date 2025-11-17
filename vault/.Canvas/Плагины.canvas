@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"98fc0c8f4a55a7dd","x":-320,"y":320,"width":955,"height":804,"color":"3","type":"group","label":"Другое"},
+		{"id":"6485ed10ea49a59b","x":-1200,"y":-520,"width":637,"height":610,"color":"4","type":"group","label":"Рекомендуется"},
+		{"id":"31aa65b97052d557","x":-1040,"y":320,"width":635,"height":440,"color":"6","type":"group","label":"Стримы"},
+		{"id":"673b55731a841995","type":"text","text":"Плагины для OBS","x":-210,"y":-129,"width":250,"height":60},
+		{"id":"807f39c6267ff3fe","x":-362,"y":3560,"width":277,"height":300,"type":"file","file":"Плагины/Yami Resized 2.0.md"},
+		{"id":"6518bf4086c9c396","x":-881,"y":360,"width":277,"height":172,"type":"file","file":"Плагины/Multiple RTMP Outputs.md"},
+		{"id":"ae12c4d0aba3ff90","x":-1020,"y":580,"width":277,"height":160,"type":"file","file":"Плагины/Aitum Vertical.md"},
+		{"id":"07150a378deaab42","x":-702,"y":580,"width":277,"height":160,"type":"file","file":"Плагины/Aitum Multistream.md"},
+		{"id":"11138441d27157e6","x":-300,"y":360,"width":277,"height":220,"type":"file","file":"Плагины/Encoder Region of Interest Editor.md"},
+		{"id":"eab498e39cb3fa00","x":-300,"y":660,"width":277,"height":160,"type":"file","file":"Плагины/Advanced Masks.md"},
+		{"id":"738d1f97f7bf3da5","x":-300,"y":880,"width":277,"height":140,"type":"file","file":"Плагины/Composite Blur.md"},
+		{"id":"187708d860e141e6","x":20,"y":360,"width":277,"height":260,"type":"file","file":"Плагины/Source Record.md"},
+		{"id":"efeb2b7abcea19b4","x":20,"y":670,"width":277,"height":200,"type":"file","file":"Плагины/Loundess Dock.md"},
+		{"id":"9c34485e250dc589","x":20,"y":920,"width":277,"height":184,"type":"file","file":"Плагины/Additional Chapter Hotkeys.md"},
+		{"id":"c896dfb8e94ed740","x":338,"y":360,"width":277,"height":160,"type":"file","file":"Плагины/Scene Collection Manager.md"},
+		{"id":"f0eefcb8db420ad4","x":338,"y":560,"width":277,"height":220,"type":"file","file":"Плагины/Source Clone.md"},
+		{"id":"bd40f9eb967dee21","x":338,"y":820,"width":277,"height":200,"type":"file","file":"Плагины/Source Copy.md"},
+		{"id":"e120600a389becf6","x":-1041,"y":-470,"width":277,"height":180,"type":"file","file":"Плагины/Advanced Scene Switcher.md"},
+		{"id":"05b4100802da3f54","x":-1180,"y":-230,"width":277,"height":300,"type":"file","file":"Плагины/Start-Stop Beep.md"},
+		{"id":"f853d4f6a1769d93","x":-861,"y":-230,"width":277,"height":300,"type":"file","file":"Плагины/OBS-shadowplay.md"}
+	],
+	"edges":[
+		{"id":"67fb4004ad2584e3","fromNode":"673b55731a841995","fromSide":"bottom","toNode":"31aa65b97052d557","toSide":"top"},
+		{"id":"b663ab2b56102f94","fromNode":"673b55731a841995","fromSide":"bottom","toNode":"98fc0c8f4a55a7dd","toSide":"top"},
+		{"id":"44493fe9628cdc41","fromNode":"673b55731a841995","fromSide":"left","toNode":"6485ed10ea49a59b","toSide":"right"}
+	]
+}

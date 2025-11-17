@@ -1,0 +1,1 @@
+[Скачать RTX SuperResolution](https://obsproject.com/forum/resources/obs-rtx-superresolution.1890/), плагин для апскелинга разрешения с использованием возможностей видеокарт Nvidia серии RTX

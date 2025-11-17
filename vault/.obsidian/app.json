@@ -1,0 +1,10 @@
+{
+  "showInlineTitle": false,
+  "alwaysUpdateLinks": true,
+  "defaultViewMode": "preview",
+  "showUnsupportedFiles": true,
+  "strictLineBreaks": false,
+  "showLineNumber": false,
+  "tabSize": 4,
+  "promptDelete": false
+}

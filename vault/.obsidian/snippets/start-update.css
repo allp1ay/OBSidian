@@ -1,0 +1,22 @@
+.button-update {
+      width:242px;
+      height:35px;
+      display:block;
+      background-color:#2c2835 !important;
+
+    }
+    .button-update::before {
+      content:'Обновить (v0.4 или новее)';
+      color:#a882ff;
+      font:bold 24px/1 Inter;
+      font-size:1rem;
+      display:block;
+      margin-bottom:-16px;
+     +5sition:all .2s ease-in-out !important;
+    }
+    .button-update::before obs{
+      color:#1a1a1a;
+    }
+    .button-update:hover {
+     background-color:#302c3a !important;
+    }

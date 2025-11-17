@@ -1,0 +1,223 @@
+{
+  "main": {
+    "id": "259d601498adf331",
+    "type": "split",
+    "children": [
+      {
+        "id": "983264942cc1c624",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fe3d87500e964ed6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. Начальный Экран/Титульный Экран.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Титульный Экран"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1c5414a36742c2d9",
+    "type": "split",
+    "children": [
+      {
+        "id": "515bb1f633ec9b3b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ca44190dfa756fd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "683d028637eb0961",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a3696dd2b3fb9042",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 254.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "a6817c570e78b3fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "4c2d9ca00360e399",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c873d5e3278a272e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "0. Начальный Экран/Титульный Экран.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Титульный Экран"
+            }
+          },
+          {
+            "id": "a534ee50b3e67472",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "1. Установка/16.1 Расширенные Настройки Кодировщика Nvidia.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из 16.1 Расширенные Настройки Кодировщика Nvidia"
+            }
+          },
+          {
+            "id": "c3ec7235ebceb5bd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "8f62a2e92492ca9e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "1. Установка/16.1 Расширенные Настройки Кодировщика Nvidia.md",
+                "followCursor": false,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура 16.1 Расширенные Настройки Кодировщика Nvidia"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": true,
+      "graph:Open graph view": true,
+      "canvas:Create new canvas": true,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": true
+    }
+  },
+  "active": "fe3d87500e964ed6",
+  "lastOpenFiles": [
+    "0. Начальный Экран/Оглавление.md",
+    "0. Начальный Экран/Стартовый Экран.md",
+    "1. Установка/9. Ярлык для Запуска и Автозагрузка OBS с системой.md",
+    "1. Установка/8.1 Плагины.md",
+    "1. Установка/8. Установка Моей настройки.md",
+    "1. Установка/11. Установка Профиля.md",
+    "3. Своя Настройка/13 Автозапуск OBS с системой.md",
+    "0. Начальный Экран/Титульный Экран.md",
+    "0. Начальный Экран/Данная версия настройки тестировалась на версии.md",
+    "1. Установка/1. Перед тем как начать....md",
+    "3. Своя Настройка/Без названия 1.md",
+    "3. Своя Настройка/Без названия.md",
+    "3. Своя Настройка/15 Как отключить автозапуск повтора вместе с OBS.md",
+    "3. Своя Настройка/14 Установка коллекции сцен.md",
+    "3. Своя Настройка/9.1 (Устарело) Ярлык и параметры запуска.md",
+    "1.1 Установка Библиотек.mp4",
+    "1. Установка/16.3 Расширенные Настройки Кодировщика Intel.md",
+    "1. Установка/16.2 Расширенные Настройки Кодировщика AMD.md",
+    "1. Установка/16.1 Расширенные Настройки Кодировщика Nvidia.md",
+    "1. Установка/16. Настройки Профиля.md",
+    "1. Установка/15. Звук программ для общения.md",
+    "1. Установка/14. Разрешение экрана.md",
+    "1. Установка/13. Папка сохранения и мгновенный повтор.md",
+    "1. Установка/12.1 ALT+Z.md",
+    "1. Установка/12. Горячие клавиши.md",
+    "1. Установка/11.3.1 Таблица Intel.md",
+    "1. Установка/11.3 На что способна моя видеокарта Intel.md",
+    "media/title1.mp4",
+    "media/1.1 Установка Библиотек.mp4",
+    "media/Icons/allplay.ico",
+    "media/Icons",
+    "media/title.mp4",
+    "media/title.mp3",
+    "media/SoundSwitch.mp4",
+    "media/poster.png",
+    "media/5. Уведомления Windows.mp4",
+    "media/4. Звуковые устройства3.mp4",
+    "Элементы/Pictures/Twitch Трансляции/Другое/Не учитывать рекомендации.jpg",
+    "Элементы/Pictures/YouTube Трансляции/Другое/YouTube Звук Трансляции.png",
+    "Элементы/Pictures/YouTube Трансляции/Nvidia YouTube Трансляции/YouTube HEVC Ключ 1080p60 + Сверхнизкая задержка и выше.png",
+    "Элементы/Pictures/YouTube Трансляции/Nvidia YouTube Трансляции/YouTube HEVC Ключ 4K60 + Стандартная задержка.png",
+    "Элементы/Pictures/YouTube Трансляции/Nvidia YouTube Трансляции/YouTube H.264 Ключ 4K60 + Стандартная задержка.png",
+    "Элементы/Pictures/YouTube Трансляции/Nvidia YouTube Трансляции/YouTube H.264  Ключ1440p60 + Низкая задержка и выше.png",
+    "Элементы/Pictures/YouTube Трансляции/Nvidia YouTube Трансляции/YouTube H.264  Ключ1080p60 + Сверхнизкая задержка и выше.png",
+    "Элементы/Pictures/YouTube Трансляции/Nvidia YouTube Трансляции/YouTube HEVC Ключ 1440p60 + Низкая задержка и выше.png",
+    "Элементы/Pictures/Twitch Трансляции/Другое/photo_2025-06-30_22-15-59.jpg",
+    "Плагины.canvas"
+  ]
+}

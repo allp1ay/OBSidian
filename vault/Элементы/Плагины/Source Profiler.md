@@ -1,0 +1,1 @@
+[Скачать Source Profiler](https://github.com/exeldro/obs-source-profiler/releases), плагин для добавления внутреннего "диспетчера задач" в OBS `Верхнее меню - Сервис - Source Profiler` который позволяет удобно следить за потреблением ресурсов CPU и GPU каждым активным источником и его фильтрами

@@ -1,0 +1,50 @@
+/* Скрываем панель вкладок */
+.workspace-tab-header-container {
+  display: none !important;
+}
+
+/* Корректируем основной контент */
+.workspace-split.mod-root {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Создаем область перетаскивания в ТОЧНОМ месте панели вкладок */
+.workspace {
+  position: relative;
+}
+
+.workspace::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: var(--header-height); /* Используем CSS-переменную */
+  -webkit-app-region: drag;
+  z-index: 100;
+  background-color: transparent;
+}
+
+/* Устанавливаем высоту области (стандартная высота панели) */
+:root {
+  --header-height: 41px;
+}
+
+/* Исключаем элементы из перетаскивания */
+.titlebar-button,
+.titlebar-button *,
+.workspace-ribbon,
+.workspace-ribbon *,
+.view-actions,
+.view-action,
+.search-input-container {
+  -webkit-app-region: no-drag !important;
+}
+
+/* Для плагина Window Controls */
+.mod-macos .titlebar-button-container,
+.mod-windows .titlebar-button-container {
+  -webkit-app-region: no-drag !important;
+  z-index: 101; /* Выше области перетаскивания */
+}

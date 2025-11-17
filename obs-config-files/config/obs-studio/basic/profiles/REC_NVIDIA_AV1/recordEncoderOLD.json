@@ -1,0 +1,1 @@
+{"rate_control":"CQVBR","target_quality":26,"max_bitrate":999999,"preset":"p1","multipass":"fullres","bframe_ref_mode":0,"bf":0,"keyint_sec":2,"opts":"enableMaxQP=1 MaxQP=32","lookahead":false}
