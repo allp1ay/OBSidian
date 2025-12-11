@@ -16,5 +16,6 @@
   "showRibbon": false,
   "theme": "obsidian",
   "cssTheme": "hidden-tabs-draggable",
-  "accentColor": "#8a5cf5"
+  "accentColor": "#8a5cf5",
+  "baseFontSize": 16
 }

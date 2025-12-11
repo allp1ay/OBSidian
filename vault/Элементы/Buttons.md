@@ -60,7 +60,7 @@ class button-swaps
 ^button-swaps
 
 ```button
-name Начать Установку
+name Продолжить Установку
 type command
 class button-as-link
 action Better Command Palette: Start OBS Guide
@@ -70,7 +70,7 @@ action Better Command Palette: Start OBS Guide
 ---
 
 ```button
-name Начать Установку
+name Продолжить Установку
 type command
 class button-guide
 action Better Command Palette: Start OBS Guide
