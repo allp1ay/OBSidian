@@ -12,14 +12,14 @@
     "name": "REC",
     "sources": [
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536870915,
             "name": "🖥️ Экран",
             "uuid": "3e227454-e4cc-4d3e-9e08-f56942c71db9",
             "id": "monitor_capture",
             "versioned_id": "monitor_capture",
             "settings": {
                 "method": 0,
-                "monitor_id": "\\\\?\\DISPLAY#XMI2001#5&1a2eee28&0&UID4354#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}",
+                "monitor_id": "\\\\?\\DISPLAY#ITE9320#5&1a2eee28&9&UID4353#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}",
                 "force_sdr": false
             },
             "mixers": 0,
@@ -40,7 +40,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536870915,
             "name": "🎮 Игра",
             "uuid": "43c5123d-6235-45c8-b762-8674637dbb7f",
             "id": "game_capture",
@@ -83,7 +83,7 @@
             }
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536870915,
             "name": "🕹️ Оконная Игра",
             "uuid": "87e190c4-6570-499d-822d-da7c3f92654d",
             "id": "game_capture",
@@ -118,7 +118,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536870915,
             "name": "🎙️ Микрофон",
             "uuid": "288e5426-a365-4795-9263-342ea0809298",
             "id": "wasapi_input_capture",
@@ -151,7 +151,7 @@
             },
             "filters": [
                 {
-                    "prev_ver": 520159234,
+                    "prev_ver": 536870915,
                     "name": "Asynchronous Audio Filter",
                     "uuid": "ee6df951-c6a7-48ea-8326-4902e0a4d117",
                     "id": "net.nagater.obs.asynchronous-audio-filter",
@@ -179,7 +179,7 @@
             ]
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536870915,
             "name": "💻 Звук ПК",
             "uuid": "b806f01d-86fe-4dbf-bb9b-6c097bc30a9c",
             "id": "wasapi_output_capture",
@@ -210,7 +210,7 @@
             },
             "filters": [
                 {
-                    "prev_ver": 520159234,
+                    "prev_ver": 536870915,
                     "name": "Asynchronous Audio Filter",
                     "uuid": "47df32d6-714d-495c-a94e-ccaa7506a8e1",
                     "id": "net.nagater.obs.asynchronous-audio-filter",
@@ -236,7 +236,7 @@
             ]
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536870915,
             "name": "🟪 Teamspeak 3",
             "uuid": "bf684e0b-da10-4d99-8a05-921479c0551a",
             "id": "wasapi_process_output_capture",
@@ -270,7 +270,7 @@
             },
             "filters": [
                 {
-                    "prev_ver": 520159234,
+                    "prev_ver": 536870915,
                     "name": "Asynchronous Audio Filter",
                     "uuid": "940af116-2c02-4a55-bb2b-39a54c47b067",
                     "id": "net.nagater.obs.asynchronous-audio-filter",
@@ -296,7 +296,7 @@
             ]
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536870915,
             "name": "🟦 Discord",
             "uuid": "932ec584-a597-41f6-80b8-808688925481",
             "id": "wasapi_process_output_capture",
@@ -328,7 +328,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536870915,
             "name": "🟫 Выбрать",
             "uuid": "9d67db87-bba0-4352-8722-7a7d397de50d",
             "id": "wasapi_process_output_capture",
@@ -360,7 +360,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536870915,
             "name": "🎦 ЭКРАН",
             "uuid": "c98173e9-1468-4437-b49b-e81aa288dff4",
             "id": "scene",
@@ -930,7 +930,7 @@
             }
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536870915,
             "name": "🎦 ИГРА",
             "uuid": "d7574ec1-ec20-47f1-bddd-e1b654c1bf91",
             "id": "scene",
@@ -1440,7 +1440,7 @@
     ],
     "groups": [
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536870915,
             "name": "Общение",
             "uuid": "f39233a7-6e63-428f-8b78-78fa1d36080c",
             "id": "group",
@@ -1683,7 +1683,7 @@
     "transition_duration": 300,
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": -3,
+    "scaling_level": -5,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "modules": {
@@ -1703,19 +1703,7 @@
             "ShowDesktopNotif": false,
             "Exclusions": []
         },
-        "scripts-tool": [
-            {
-                "path": "./scripts/toggle_ui.lua",
-                "settings": {
-                    "toggle_obs_ui": [
-                        {
-                            "alt": true,
-                            "key": "OBS_KEY_Z"
-                        }
-                    ]
-                }
-            }
-        ],
+        "scripts-tool": [],
         "output-timer": {
             "streamTimerHours": 0,
             "streamTimerMinutes": 0,
@@ -2034,7 +2022,7 @@
                     "group": true,
                     "groupData": {
                         "collapsed": true,
-                        "size": 5
+                        "size": 7
                     }
                 },
                 {
@@ -2073,15 +2061,15 @@
                     },
                     "macroActionConditionSplitterPosition": [
                         {
-                            "pos": 521
+                            "pos": 291
                         },
                         {
-                            "pos": 521
+                            "pos": 291
                         }
                     ],
                     "macroElseActionSplitterPosition": [
                         {
-                            "pos": 489
+                            "pos": 259
                         },
                         {
                             "pos": 0
@@ -2144,15 +2132,15 @@
                     },
                     "macroActionConditionSplitterPosition": [
                         {
-                            "pos": 173
+                            "pos": 260
                         },
                         {
-                            "pos": 204
+                            "pos": 306
                         }
                     ],
                     "macroElseActionSplitterPosition": [
                         {
-                            "pos": 172
+                            "pos": 274
                         },
                         {
                             "pos": 0
@@ -2283,15 +2271,15 @@
                     },
                     "macroActionConditionSplitterPosition": [
                         {
-                            "pos": 521
+                            "pos": 322
                         },
                         {
-                            "pos": 521
+                            "pos": 322
                         }
                     ],
                     "macroElseActionSplitterPosition": [
                         {
-                            "pos": 489
+                            "pos": 290
                         },
                         {
                             "pos": 0
@@ -2449,15 +2437,15 @@
                     },
                     "macroActionConditionSplitterPosition": [
                         {
-                            "pos": 384
+                            "pos": 277
                         },
                         {
-                            "pos": 658
+                            "pos": 475
                         }
                     ],
                     "macroElseActionSplitterPosition": [
                         {
-                            "pos": 626
+                            "pos": 443
                         },
                         {
                             "pos": 0
@@ -2515,7 +2503,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": true,
+                                "enabled": false,
                                 "version": 1
                             },
                             "id": "systray_notification",
@@ -2529,7 +2517,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": false,
+                                "enabled": true,
                                 "version": 1
                             },
                             "id": "run",
@@ -2589,15 +2577,15 @@
                     },
                     "macroActionConditionSplitterPosition": [
                         {
-                            "pos": 370
+                            "pos": 288
                         },
                         {
-                            "pos": 370
+                            "pos": 287
                         }
                     ],
                     "macroElseActionSplitterPosition": [
                         {
-                            "pos": 338
+                            "pos": 255
                         },
                         {
                             "pos": 0
@@ -2673,99 +2661,7 @@
                     "inputVariables": []
                 },
                 {
-                    "name": "ЗАПИСЬ",
-                    "group": true,
-                    "groupData": {
-                        "collapsed": true,
-                        "size": 6
-                    }
-                },
-                {
-                    "name": "🎦 Запись",
-                    "group": false,
-                    "pauseSaveBehavior": 0,
-                    "pause": false,
-                    "parallel": false,
-                    "checkConditionsInParallel": false,
-                    "onChange": true,
-                    "skipExecOnStart": false,
-                    "stopActionsIfNotDone": false,
-                    "useShortCircuitEvaluation": false,
-                    "useCustomConditionCheckInterval": false,
-                    "customConditionCheckInterval": {
-                        "value": {
-                            "value": 0.3,
-                            "type": 0
-                        },
-                        "unit": 0,
-                        "version": 1
-                    },
-                    "dockSettings": {
-                        "register": true,
-                        "hasRunButton": true,
-                        "hasPauseButton": true,
-                        "hasStatusLabel": false,
-                        "highlightIfConditionsTrue": false,
-                        "runButtonText": "⏯️ Пауза Записи",
-                        "pauseButtonText": "▶️ Начать Запись",
-                        "unpauseButtonText": "⏺️ Остановить Запись",
-                        "conditionsTrueStatusText": "Conditions are true.",
-                        "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "advss-macro-dock-1b683ef9-a7c0-4c18-b342-5f3a893469e1",
-                        "version": 1
-                    },
-                    "macroActionConditionSplitterPosition": [
-                        {
-                            "pos": 197
-                        },
-                        {
-                            "pos": 197
-                        }
-                    ],
-                    "macroElseActionSplitterPosition": [
-                        {
-                            "pos": 165
-                        },
-                        {
-                            "pos": 0
-                        }
-                    ],
-                    "registerHotkeys": false,
-                    "pauseHotkey": [],
-                    "unpauseHotkey": [],
-                    "togglePauseHotkey": [],
-                    "conditions": [],
-                    "actions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "macro",
-                            "macro": "Пауза",
-                            "actionIndex": {
-                                "value": 1,
-                                "type": 0
-                            },
-                            "action": 8,
-                            "runOptions": {
-                                "logic": 0,
-                                "reevaluateConditionState": false,
-                                "runElseActions": false,
-                                "skipWhenPaused": true,
-                                "setInputs": false,
-                                "inputs": []
-                            }
-                        }
-                    ],
-                    "elseActions": [],
-                    "inputVariables": []
-                },
-                {
-                    "name": "Запись Вкл/Выкл",
+                    "name": "Закрыть Ошибку 2",
                     "group": false,
                     "pauseSaveBehavior": 0,
                     "pause": false,
@@ -2795,958 +2691,20 @@
                         "unpauseButtonText": "Unpause",
                         "conditionsTrueStatusText": "Conditions are true.",
                         "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "advss-macro-dock-d8a9a34a-bd1d-439c-a74b-6564ac020622",
+                        "dockId": "advss-macro-dock-33a3d717-a752-410b-8cd4-1a0c7d51ca0d",
                         "version": 1
                     },
                     "macroActionConditionSplitterPosition": [
                         {
-                            "pos": 197
+                            "pos": 305
                         },
-                        {
-                            "pos": 197
-                        }
-                    ],
-                    "macroElseActionSplitterPosition": [
-                        {
-                            "pos": 83
-                        },
-                        {
-                            "pos": 82
-                        }
-                    ],
-                    "registerHotkeys": false,
-                    "pauseHotkey": [],
-                    "unpauseHotkey": [],
-                    "togglePauseHotkey": [],
-                    "conditions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "macro",
-                            "logic": 0,
-                            "durationModifier": {
-                                "time_constraint": 0,
-                                "seconds": {
-                                    "value": {
-                                        "value": 0.0,
-                                        "type": 0
-                                    },
-                                    "unit": 0,
-                                    "version": 1
-                                }
-                            },
-                            "macros": [],
-                            "macro": "🎦 Запись",
-                            "type": 5,
-                            "condition": 0,
-                            "count": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "multiStateCount": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "multiStateCondition": 2,
-                            "actionIndex": {
-                                "value": 1,
-                                "type": 0
-                            },
-                            "version": 1
-                        }
-                    ],
-                    "actions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "recording",
-                            "action": 1,
-                            "folder": "C:/Users/ALLPLAY/Videos",
-                            "format": "%CCYY-%MM-%DD %hh-%mm-%ss"
-                        }
-                    ],
-                    "elseActions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "recording",
-                            "action": 0,
-                            "folder": "C:/Users/ALLPLAY/Videos",
-                            "format": "%CCYY-%MM-%DD %hh-%mm-%ss"
-                        }
-                    ],
-                    "inputVariables": []
-                },
-                {
-                    "name": "Запись Синх.",
-                    "group": false,
-                    "pauseSaveBehavior": 0,
-                    "pause": false,
-                    "parallel": false,
-                    "checkConditionsInParallel": false,
-                    "onChange": true,
-                    "skipExecOnStart": false,
-                    "stopActionsIfNotDone": false,
-                    "useShortCircuitEvaluation": false,
-                    "useCustomConditionCheckInterval": true,
-                    "customConditionCheckInterval": {
-                        "value": {
-                            "value": 2.0,
-                            "type": 0
-                        },
-                        "unit": 0,
-                        "version": 1
-                    },
-                    "dockSettings": {
-                        "register": false,
-                        "hasRunButton": true,
-                        "hasPauseButton": true,
-                        "hasStatusLabel": false,
-                        "highlightIfConditionsTrue": false,
-                        "runButtonText": "Run",
-                        "pauseButtonText": "Pause",
-                        "unpauseButtonText": "Unpause",
-                        "conditionsTrueStatusText": "Conditions are true.",
-                        "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "advss-macro-dock-1bdf103c-38fe-49f6-913d-9978166790a2",
-                        "version": 1
-                    },
-                    "macroActionConditionSplitterPosition": [
-                        {
-                            "pos": 370
-                        },
-                        {
-                            "pos": 370
-                        }
-                    ],
-                    "macroElseActionSplitterPosition": [
-                        {
-                            "pos": 169
-                        },
-                        {
-                            "pos": 169
-                        }
-                    ],
-                    "registerHotkeys": false,
-                    "pauseHotkey": [],
-                    "unpauseHotkey": [],
-                    "togglePauseHotkey": [],
-                    "conditions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "recording",
-                            "logic": 0,
-                            "durationModifier": {
-                                "time_constraint": 0,
-                                "seconds": {
-                                    "value": {
-                                        "value": 0.0,
-                                        "type": 0
-                                    },
-                                    "unit": 0,
-                                    "version": 1
-                                }
-                            },
-                            "state": 2,
-                            "duration": {
-                                "value": {
-                                    "value": 0.0,
-                                    "type": 0
-                                },
-                                "unit": 0,
-                                "version": 1
-                            }
-                        }
-                    ],
-                    "actions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "macro",
-                            "macro": "🎦 Запись",
-                            "actionIndex": {
-                                "value": 1,
-                                "type": 0
-                            },
-                            "action": 0,
-                            "runOptions": {
-                                "logic": 0,
-                                "reevaluateConditionState": false,
-                                "runElseActions": false,
-                                "skipWhenPaused": true,
-                                "setInputs": false,
-                                "inputs": []
-                            }
-                        }
-                    ],
-                    "elseActions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "macro",
-                            "macro": "🎦 Запись",
-                            "actionIndex": {
-                                "value": 1,
-                                "type": 0
-                            },
-                            "action": 1,
-                            "runOptions": {
-                                "logic": 0,
-                                "reevaluateConditionState": false,
-                                "runElseActions": false,
-                                "skipWhenPaused": true,
-                                "setInputs": false,
-                                "inputs": []
-                            }
-                        }
-                    ],
-                    "inputVariables": []
-                },
-                {
-                    "name": "Пауза",
-                    "group": false,
-                    "pauseSaveBehavior": 2,
-                    "pause": false,
-                    "parallel": false,
-                    "checkConditionsInParallel": false,
-                    "onChange": true,
-                    "skipExecOnStart": false,
-                    "stopActionsIfNotDone": false,
-                    "useShortCircuitEvaluation": false,
-                    "useCustomConditionCheckInterval": false,
-                    "customConditionCheckInterval": {
-                        "value": {
-                            "value": 0.3,
-                            "type": 0
-                        },
-                        "unit": 0,
-                        "version": 1
-                    },
-                    "dockSettings": {
-                        "register": false,
-                        "hasRunButton": true,
-                        "hasPauseButton": true,
-                        "hasStatusLabel": false,
-                        "highlightIfConditionsTrue": false,
-                        "runButtonText": "⏯️ Пауза Записи",
-                        "pauseButtonText": "▶️ Начать Запись",
-                        "unpauseButtonText": "⏺️ Остановить Запись",
-                        "conditionsTrueStatusText": "Conditions are true.",
-                        "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "advss-macro-dock-8444705d-380e-4403-9ffa-56d595eb9d52",
-                        "version": 1
-                    },
-                    "macroActionConditionSplitterPosition": [
-                        {
-                            "pos": 370
-                        },
-                        {
-                            "pos": 370
-                        }
-                    ],
-                    "macroElseActionSplitterPosition": [
-                        {
-                            "pos": 338
-                        },
-                        {
-                            "pos": 0
-                        }
-                    ],
-                    "registerHotkeys": false,
-                    "pauseHotkey": [],
-                    "unpauseHotkey": [],
-                    "togglePauseHotkey": [],
-                    "conditions": [],
-                    "actions": [],
-                    "elseActions": [],
-                    "inputVariables": []
-                },
-                {
-                    "name": "Пауза Вкл/Выкл",
-                    "group": false,
-                    "pauseSaveBehavior": 0,
-                    "pause": false,
-                    "parallel": false,
-                    "checkConditionsInParallel": false,
-                    "onChange": true,
-                    "skipExecOnStart": false,
-                    "stopActionsIfNotDone": false,
-                    "useShortCircuitEvaluation": false,
-                    "useCustomConditionCheckInterval": false,
-                    "customConditionCheckInterval": {
-                        "value": {
-                            "value": 0.3,
-                            "type": 0
-                        },
-                        "unit": 0,
-                        "version": 1
-                    },
-                    "dockSettings": {
-                        "register": false,
-                        "hasRunButton": true,
-                        "hasPauseButton": true,
-                        "hasStatusLabel": false,
-                        "highlightIfConditionsTrue": false,
-                        "runButtonText": "Run",
-                        "pauseButtonText": "Pause",
-                        "unpauseButtonText": "Unpause",
-                        "conditionsTrueStatusText": "Conditions are true.",
-                        "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "advss-macro-dock-35b83147-9df5-44c7-b75b-f2c78aef1850",
-                        "version": 1
-                    },
-                    "macroActionConditionSplitterPosition": [
-                        {
-                            "pos": 370
-                        },
-                        {
-                            "pos": 370
-                        }
-                    ],
-                    "macroElseActionSplitterPosition": [
-                        {
-                            "pos": 169
-                        },
-                        {
-                            "pos": 169
-                        }
-                    ],
-                    "registerHotkeys": false,
-                    "pauseHotkey": [],
-                    "unpauseHotkey": [],
-                    "togglePauseHotkey": [],
-                    "conditions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "macro",
-                            "logic": 0,
-                            "durationModifier": {
-                                "time_constraint": 0,
-                                "seconds": {
-                                    "value": {
-                                        "value": 0.0,
-                                        "type": 0
-                                    },
-                                    "unit": 0,
-                                    "version": 1
-                                }
-                            },
-                            "macros": [],
-                            "macro": "Пауза",
-                            "type": 5,
-                            "condition": 0,
-                            "count": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "multiStateCount": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "multiStateCondition": 2,
-                            "actionIndex": {
-                                "value": 1,
-                                "type": 0
-                            },
-                            "version": 1
-                        }
-                    ],
-                    "actions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "recording",
-                            "action": 2,
-                            "folder": "C:/Users/ALLPLAY/Videos",
-                            "format": "%CCYY-%MM-%DD %hh-%mm-%ss"
-                        }
-                    ],
-                    "elseActions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "recording",
-                            "action": 3,
-                            "folder": "C:/Users/ALLPLAY/Videos",
-                            "format": "%CCYY-%MM-%DD %hh-%mm-%ss"
-                        }
-                    ],
-                    "inputVariables": []
-                },
-                {
-                    "name": "Пауза Синх.",
-                    "group": false,
-                    "pauseSaveBehavior": 0,
-                    "pause": false,
-                    "parallel": false,
-                    "checkConditionsInParallel": false,
-                    "onChange": true,
-                    "skipExecOnStart": false,
-                    "stopActionsIfNotDone": false,
-                    "useShortCircuitEvaluation": false,
-                    "useCustomConditionCheckInterval": false,
-                    "customConditionCheckInterval": {
-                        "value": {
-                            "value": 0.6,
-                            "type": 0
-                        },
-                        "unit": 0,
-                        "version": 1
-                    },
-                    "dockSettings": {
-                        "register": false,
-                        "hasRunButton": true,
-                        "hasPauseButton": true,
-                        "hasStatusLabel": false,
-                        "highlightIfConditionsTrue": false,
-                        "runButtonText": "Run",
-                        "pauseButtonText": "Pause",
-                        "unpauseButtonText": "Unpause",
-                        "conditionsTrueStatusText": "Conditions are true.",
-                        "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "advss-macro-dock-6cf0f9be-c78a-4ec7-a130-241c933748b2",
-                        "version": 1
-                    },
-                    "macroActionConditionSplitterPosition": [
-                        {
-                            "pos": 370
-                        },
-                        {
-                            "pos": 370
-                        }
-                    ],
-                    "macroElseActionSplitterPosition": [
-                        {
-                            "pos": 169
-                        },
-                        {
-                            "pos": 169
-                        }
-                    ],
-                    "registerHotkeys": false,
-                    "pauseHotkey": [],
-                    "unpauseHotkey": [],
-                    "togglePauseHotkey": [],
-                    "conditions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "recording",
-                            "logic": 0,
-                            "durationModifier": {
-                                "time_constraint": 0,
-                                "seconds": {
-                                    "value": {
-                                        "value": 0.0,
-                                        "type": 0
-                                    },
-                                    "unit": 0,
-                                    "version": 1
-                                }
-                            },
-                            "state": 1,
-                            "duration": {
-                                "value": {
-                                    "value": 0.0,
-                                    "type": 0
-                                },
-                                "unit": 0,
-                                "version": 1
-                            }
-                        }
-                    ],
-                    "actions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "macro",
-                            "macro": "Пауза",
-                            "actionIndex": {
-                                "value": 1,
-                                "type": 0
-                            },
-                            "action": 0,
-                            "runOptions": {
-                                "logic": 0,
-                                "reevaluateConditionState": false,
-                                "runElseActions": false,
-                                "skipWhenPaused": true,
-                                "setInputs": false,
-                                "inputs": []
-                            }
-                        }
-                    ],
-                    "elseActions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "macro",
-                            "macro": "Пауза",
-                            "actionIndex": {
-                                "value": 1,
-                                "type": 0
-                            },
-                            "action": 1,
-                            "runOptions": {
-                                "logic": 0,
-                                "reevaluateConditionState": false,
-                                "runElseActions": false,
-                                "skipWhenPaused": true,
-                                "setInputs": false,
-                                "inputs": []
-                            }
-                        }
-                    ],
-                    "inputVariables": []
-                },
-                {
-                    "name": "УМНЫЙ ПОВТОР 3",
-                    "group": true,
-                    "groupData": {
-                        "collapsed": true,
-                        "size": 8
-                    }
-                },
-                {
-                    "name": "🎦 Повтор",
-                    "group": false,
-                    "pauseSaveBehavior": 0,
-                    "pause": true,
-                    "parallel": false,
-                    "checkConditionsInParallel": false,
-                    "onChange": true,
-                    "skipExecOnStart": false,
-                    "stopActionsIfNotDone": false,
-                    "useShortCircuitEvaluation": false,
-                    "useCustomConditionCheckInterval": false,
-                    "customConditionCheckInterval": {
-                        "value": {
-                            "value": 0.3,
-                            "type": 0
-                        },
-                        "unit": 0,
-                        "version": 1
-                    },
-                    "dockSettings": {
-                        "register": true,
-                        "hasRunButton": true,
-                        "hasPauseButton": true,
-                        "hasStatusLabel": false,
-                        "highlightIfConditionsTrue": false,
-                        "runButtonText": "💾 Сохранить Повтор",
-                        "pauseButtonText": "🟢 Умный Повтор",
-                        "unpauseButtonText": "🔴 Умный Повтор",
-                        "conditionsTrueStatusText": "Conditions are true.",
-                        "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "advss-macro-dock-7a6e48df-ec44-49ef-b599-60749633b5e6",
-                        "version": 1
-                    },
-                    "macroActionConditionSplitterPosition": [
-                        {
-                            "pos": 374
-                        },
-                        {
-                            "pos": 366
-                        }
-                    ],
-                    "macroElseActionSplitterPosition": [
-                        {
-                            "pos": 334
-                        },
-                        {
-                            "pos": 0
-                        }
-                    ],
-                    "registerHotkeys": true,
-                    "pauseHotkey": [],
-                    "unpauseHotkey": [],
-                    "togglePauseHotkey": [
-                        {
-                            "alt": true,
-                            "key": "OBS_KEY_F10"
-                        }
-                    ],
-                    "conditions": [],
-                    "actions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "hotkey",
-                            "action": 0,
-                            "hotkeyType": 2,
-                            "hotkeyName": "[Буфер повтора] ReplayBuffer.Save",
-                            "key": 0,
-                            "left_shift": false,
-                            "right_shift": false,
-                            "left_ctrl": false,
-                            "right_ctrl": false,
-                            "left_alt": false,
-                            "right_alt": false,
-                            "left_meta": false,
-                            "right_meta": false,
-                            "duration": {
-                                "value": {
-                                    "value": 0.3,
-                                    "type": 0
-                                },
-                                "unit": 0,
-                                "version": 1
-                            },
-                            "onlyOBS": false,
-                            "version": 2
-                        }
-                    ],
-                    "elseActions": [],
-                    "inputVariables": []
-                },
-                {
-                    "name": "Умный Повтор Вкл/Выкл",
-                    "group": false,
-                    "pauseSaveBehavior": 0,
-                    "pause": false,
-                    "parallel": true,
-                    "checkConditionsInParallel": false,
-                    "onChange": false,
-                    "skipExecOnStart": false,
-                    "stopActionsIfNotDone": false,
-                    "useShortCircuitEvaluation": false,
-                    "useCustomConditionCheckInterval": false,
-                    "customConditionCheckInterval": {
-                        "value": {
-                            "value": 2.0,
-                            "type": 0
-                        },
-                        "unit": 0,
-                        "version": 1
-                    },
-                    "dockSettings": {
-                        "register": false,
-                        "hasRunButton": true,
-                        "hasPauseButton": true,
-                        "hasStatusLabel": false,
-                        "highlightIfConditionsTrue": false,
-                        "runButtonText": "Run",
-                        "pauseButtonText": "Pause",
-                        "unpauseButtonText": "Unpause",
-                        "conditionsTrueStatusText": "Conditions are true.",
-                        "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "advss-macro-dock-ec73eaf1-acca-4a64-9de2-3120ce12f504",
-                        "version": 1
-                    },
-                    "macroActionConditionSplitterPosition": [
-                        {
-                            "pos": 220
-                        },
-                        {
-                            "pos": 478
-                        }
-                    ],
-                    "macroElseActionSplitterPosition": [
-                        {
-                            "pos": 225
-                        },
-                        {
-                            "pos": 221
-                        }
-                    ],
-                    "registerHotkeys": false,
-                    "pauseHotkey": [],
-                    "unpauseHotkey": [],
-                    "togglePauseHotkey": [],
-                    "conditions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": false,
-                                "version": 1
-                            },
-                            "id": "macro",
-                            "logic": 0,
-                            "durationModifier": {
-                                "time_constraint": 0,
-                                "seconds": {
-                                    "value": {
-                                        "value": 0.0,
-                                        "type": 0
-                                    },
-                                    "unit": 0,
-                                    "version": 1
-                                }
-                            },
-                            "macros": [],
-                            "macro": "🎦 Повтор",
-                            "type": 5,
-                            "condition": 0,
-                            "count": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "multiStateCount": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "multiStateCondition": 2,
-                            "actionIndex": {
-                                "value": 1,
-                                "type": 0
-                            },
-                            "version": 1
-                        }
-                    ],
-                    "actions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "macro",
-                            "macro": "Повтор Часть 1",
-                            "actionIndex": {
-                                "value": 1,
-                                "type": 0
-                            },
-                            "action": 0,
-                            "runOptions": {
-                                "logic": 0,
-                                "reevaluateConditionState": false,
-                                "runElseActions": false,
-                                "skipWhenPaused": true,
-                                "setInputs": false,
-                                "inputs": []
-                            }
-                        },
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "macro",
-                            "macro": "Повтор Часть 2",
-                            "actionIndex": {
-                                "value": 1,
-                                "type": 0
-                            },
-                            "action": 0,
-                            "runOptions": {
-                                "logic": 0,
-                                "reevaluateConditionState": false,
-                                "runElseActions": false,
-                                "skipWhenPaused": true,
-                                "setInputs": false,
-                                "inputs": []
-                            }
-                        },
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "replay_buffer",
-                            "action": 0,
-                            "duration": {
-                                "value": {
-                                    "value": 0.0,
-                                    "type": 0
-                                },
-                                "unit": 0,
-                                "version": 1
-                            }
-                        }
-                    ],
-                    "elseActions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "macro",
-                            "macro": "Повтор Часть 1",
-                            "actionIndex": {
-                                "value": 1,
-                                "type": 0
-                            },
-                            "action": 1,
-                            "runOptions": {
-                                "logic": 0,
-                                "reevaluateConditionState": false,
-                                "runElseActions": false,
-                                "skipWhenPaused": true,
-                                "setInputs": false,
-                                "inputs": []
-                            }
-                        },
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "macro",
-                            "macro": "Повтор Часть 2",
-                            "actionIndex": {
-                                "value": 1,
-                                "type": 0
-                            },
-                            "action": 1,
-                            "runOptions": {
-                                "logic": 0,
-                                "reevaluateConditionState": false,
-                                "runElseActions": false,
-                                "skipWhenPaused": true,
-                                "setInputs": false,
-                                "inputs": []
-                            }
-                        },
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "replay_buffer",
-                            "action": 1,
-                            "duration": {
-                                "value": {
-                                    "value": 0.0,
-                                    "type": 0
-                                },
-                                "unit": 0,
-                                "version": 1
-                            }
-                        }
-                    ],
-                    "inputVariables": []
-                },
-                {
-                    "name": "Повтор Часть 1",
-                    "group": false,
-                    "pauseSaveBehavior": 0,
-                    "pause": true,
-                    "parallel": true,
-                    "checkConditionsInParallel": false,
-                    "onChange": true,
-                    "skipExecOnStart": false,
-                    "stopActionsIfNotDone": false,
-                    "useShortCircuitEvaluation": false,
-                    "useCustomConditionCheckInterval": false,
-                    "customConditionCheckInterval": {
-                        "value": {
-                            "value": 0.3,
-                            "type": 0
-                        },
-                        "unit": 0,
-                        "version": 1
-                    },
-                    "dockSettings": {
-                        "register": false,
-                        "hasRunButton": true,
-                        "hasPauseButton": true,
-                        "hasStatusLabel": false,
-                        "highlightIfConditionsTrue": false,
-                        "runButtonText": "Run",
-                        "pauseButtonText": "Pause",
-                        "unpauseButtonText": "Unpause",
-                        "conditionsTrueStatusText": "Conditions are true.",
-                        "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "ADVSS-part1",
-                        "version": 1
-                    },
-                    "macroActionConditionSplitterPosition": [
-                        {
-                            "pos": 184
-                        },
-                        {
-                            "pos": 514
-                        }
-                    ],
-                    "macroElseActionSplitterPosition": [
                         {
                             "pos": 482
+                        }
+                    ],
+                    "macroElseActionSplitterPosition": [
+                        {
+                            "pos": 450
                         },
                         {
                             "pos": 0
@@ -3757,31 +2715,6 @@
                     "unpauseHotkey": [],
                     "togglePauseHotkey": [],
                     "conditions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": false,
-                                "version": 1
-                            },
-                            "id": "replay_buffer",
-                            "logic": 0,
-                            "durationModifier": {
-                                "time_constraint": 0,
-                                "seconds": {
-                                    "value": {
-                                        "value": 1.0,
-                                        "type": 0
-                                    },
-                                    "unit": 0,
-                                    "version": 1
-                                }
-                            },
-                            "state": 2
-                        }
-                    ],
-                    "actions": [
                         {
                             "segmentSettings": {
                                 "collapsed": false,
@@ -3790,85 +2723,7 @@
                                 "enabled": true,
                                 "version": 1
                             },
-                            "id": "replay_buffer",
-                            "action": 0,
-                            "duration": {
-                                "value": {
-                                    "value": 0.0,
-                                    "type": 0
-                                },
-                                "unit": 0,
-                                "version": 1
-                            }
-                        }
-                    ],
-                    "elseActions": [],
-                    "inputVariables": []
-                },
-                {
-                    "name": "Повтор Часть 2",
-                    "group": false,
-                    "pauseSaveBehavior": 0,
-                    "pause": true,
-                    "parallel": true,
-                    "checkConditionsInParallel": false,
-                    "onChange": true,
-                    "skipExecOnStart": false,
-                    "stopActionsIfNotDone": false,
-                    "useShortCircuitEvaluation": false,
-                    "useCustomConditionCheckInterval": false,
-                    "customConditionCheckInterval": {
-                        "value": {
-                            "value": 0.3,
-                            "type": 0
-                        },
-                        "unit": 0,
-                        "version": 1
-                    },
-                    "dockSettings": {
-                        "register": false,
-                        "hasRunButton": true,
-                        "hasPauseButton": true,
-                        "hasStatusLabel": false,
-                        "highlightIfConditionsTrue": false,
-                        "runButtonText": "Run",
-                        "pauseButtonText": "Pause",
-                        "unpauseButtonText": "Unpause",
-                        "conditionsTrueStatusText": "Conditions are true.",
-                        "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "ADVSS-part2",
-                        "version": 1
-                    },
-                    "macroActionConditionSplitterPosition": [
-                        {
-                            "pos": 352
-                        },
-                        {
-                            "pos": 346
-                        }
-                    ],
-                    "macroElseActionSplitterPosition": [
-                        {
-                            "pos": 314
-                        },
-                        {
-                            "pos": 0
-                        }
-                    ],
-                    "registerHotkeys": false,
-                    "pauseHotkey": [],
-                    "unpauseHotkey": [],
-                    "togglePauseHotkey": [],
-                    "conditions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": false,
-                                "version": 1
-                            },
-                            "id": "replay_buffer",
+                            "id": "window",
                             "logic": 0,
                             "durationModifier": {
                                 "time_constraint": 0,
@@ -3881,7 +2736,25 @@
                                     "version": 1
                                 }
                             },
-                            "state": 0
+                            "checkTitle": true,
+                            "window": "Поток не настроен",
+                            "windowRegexConfig": {
+                                "enable": false,
+                                "partial": false,
+                                "options": 0
+                            },
+                            "fullscreen": false,
+                            "maximized": false,
+                            "focus": false,
+                            "windowFocusChanged": false,
+                            "checkWindowText": false,
+                            "text": "",
+                            "textRegexConfig": {
+                                "enable": false,
+                                "partial": true,
+                                "options": 0
+                            },
+                            "version": 1
                         }
                     ],
                     "actions": [
@@ -3893,158 +2766,26 @@
                                 "enabled": true,
                                 "version": 1
                             },
-                            "id": "replay_buffer",
-                            "action": 1,
-                            "duration": {
-                                "value": {
-                                    "value": 0.0,
-                                    "type": 0
-                                },
-                                "unit": 0,
-                                "version": 1
+                            "id": "window",
+                            "action": 3,
+                            "window": "Поток не настроен",
+                            "regex": {
+                                "enable": false,
+                                "partial": false,
+                                "options": 0
                             }
-                        }
-                    ],
-                    "elseActions": [],
-                    "inputVariables": []
-                },
-                {
-                    "name": "Умный Повтор - Свободное Место",
-                    "group": false,
-                    "pauseSaveBehavior": 0,
-                    "pause": false,
-                    "parallel": false,
-                    "checkConditionsInParallel": false,
-                    "onChange": true,
-                    "skipExecOnStart": false,
-                    "stopActionsIfNotDone": false,
-                    "useShortCircuitEvaluation": false,
-                    "useCustomConditionCheckInterval": false,
-                    "customConditionCheckInterval": {
-                        "value": {
-                            "value": 0.3,
-                            "type": 0
-                        },
-                        "unit": 0,
-                        "version": 1
-                    },
-                    "dockSettings": {
-                        "register": false,
-                        "hasRunButton": true,
-                        "hasPauseButton": true,
-                        "hasStatusLabel": false,
-                        "highlightIfConditionsTrue": false,
-                        "runButtonText": "Run",
-                        "pauseButtonText": "Pause",
-                        "unpauseButtonText": "Unpause",
-                        "conditionsTrueStatusText": "Conditions are true.",
-                        "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "advss-macro-dock-8b99a3ae-593d-46bd-8061-ee4dcfebe5d4",
-                        "version": 1
-                    },
-                    "macroActionConditionSplitterPosition": [
-                        {
-                            "pos": 370
-                        },
-                        {
-                            "pos": 370
-                        }
-                    ],
-                    "macroElseActionSplitterPosition": [
-                        {
-                            "pos": 338
-                        },
-                        {
-                            "pos": 0
-                        }
-                    ],
-                    "registerHotkeys": false,
-                    "pauseHotkey": [],
-                    "unpauseHotkey": [],
-                    "togglePauseHotkey": [],
-                    "conditions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "macro",
-                            "logic": 1,
-                            "durationModifier": {
-                                "time_constraint": 0,
-                                "seconds": {
-                                    "value": {
-                                        "value": 0.0,
-                                        "type": 0
-                                    },
-                                    "unit": 0,
-                                    "version": 1
-                                }
-                            },
-                            "macros": [],
-                            "macro": "🎦 Повтор",
-                            "type": 5,
-                            "condition": 0,
-                            "count": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "multiStateCount": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "multiStateCondition": 2,
-                            "actionIndex": {
-                                "value": 1,
-                                "type": 0
-                            },
-                            "version": 1
                         },
                         {
                             "segmentSettings": {
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "obs_stats",
-                            "logic": 101,
-                            "durationModifier": {
-                                "time_constraint": 0,
-                                "seconds": {
-                                    "value": {
-                                        "value": 0.0,
-                                        "type": 0
-                                    },
-                                    "unit": 0,
-                                    "version": 1
-                                }
-                            },
-                            "value": {
-                                "value": 0.0,
-                                "type": 0
-                            },
-                            "type": 2,
-                            "condition": 1,
-                            "version": 1
-                        }
-                    ],
-                    "actions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
+                                "enabled": false,
                                 "version": 1
                             },
                             "id": "systray_notification",
                             "message": "",
-                            "title": "Вы не Указали Папку Записей или Указанный Диск Переполнен!",
+                            "title": "Коллекция 🎦REC не подходит для трансляций, используйте 🛜LIVE.",
                             "icon": ".\\allplay.ico",
                             "version": 1
                         },
@@ -4053,12 +2794,12 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": false,
+                                "enabled": true,
                                 "version": 1
                             },
                             "id": "run",
                             "processConfig": {
-                                "path": "\".\\Notifier\\OBS_Notifier.exe\" --icon=\".\\allplay.ico\" --sound=\".\\Notifier\\muted.wav\" --title=\"Внимание!\" --text=\"Вы не указали папку записей или указанный диск переполнен! Умный Повтор отключен\"",
+                                "path": "\".\\Notifier\\OBS_Notifier.exe\" --icon=\".\\allplay.ico\" --sound=\".\\Notifier\\muted.wav\" --title=\"Ошибка\" --text=\"Коллекция REC не подходит для трансляций, используйте LIVE.\"",
                                 "workingDirectory": "",
                                 "args": []
                             },
@@ -4072,37 +2813,13 @@
                             },
                             "wait": false,
                             "version": 1
-                        },
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "macro",
-                            "macro": "🎦 Повтор",
-                            "actionIndex": {
-                                "value": 1,
-                                "type": 0
-                            },
-                            "action": 0,
-                            "runOptions": {
-                                "logic": 0,
-                                "reevaluateConditionState": false,
-                                "runElseActions": false,
-                                "skipWhenPaused": true,
-                                "setInputs": false,
-                                "inputs": []
-                            }
                         }
                     ],
                     "elseActions": [],
                     "inputVariables": []
                 },
                 {
-                    "name": "Умный Повтор (3 мин)",
+                    "name": "Закрыть Ошибку 3",
                     "group": false,
                     "pauseSaveBehavior": 0,
                     "pause": false,
@@ -4127,25 +2844,25 @@
                         "hasPauseButton": true,
                         "hasStatusLabel": false,
                         "highlightIfConditionsTrue": false,
-                        "runButtonText": "💾 Сохранять 3 мин",
+                        "runButtonText": "Run",
                         "pauseButtonText": "Pause",
                         "unpauseButtonText": "Unpause",
                         "conditionsTrueStatusText": "Conditions are true.",
                         "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "advss-macro-dock-fb611985-93be-4ce7-8505-4a8dd285afa7",
+                        "dockId": "advss-macro-dock-b1d8db97-2afc-4394-97e0-27d5df697e7d",
                         "version": 1
                     },
                     "macroActionConditionSplitterPosition": [
                         {
-                            "pos": 198
+                            "pos": 304
                         },
                         {
-                            "pos": 196
+                            "pos": 483
                         }
                     ],
                     "macroElseActionSplitterPosition": [
                         {
-                            "pos": 164
+                            "pos": 451
                         },
                         {
                             "pos": 0
@@ -4164,7 +2881,7 @@
                                 "enabled": true,
                                 "version": 1
                             },
-                            "id": "hotkey",
+                            "id": "studio_mode",
                             "logic": 0,
                             "durationModifier": {
                                 "time_constraint": 0,
@@ -4177,16 +2894,11 @@
                                     "version": 1
                                 }
                             },
-                            "desc": "Умный Повтор | Сохранять 3 минуты ",
-                            "keyBind": [
-                                {
-                                    "shift": true,
-                                    "control": true,
-                                    "alt": true,
-                                    "key": "OBS_KEY_3"
-                                }
-                            ],
-                            "checkPressed": true
+                            "condition": 0,
+                            "sceneSelection": {
+                                "type": 0,
+                                "name": ""
+                            }
                         }
                     ],
                     "actions": [
@@ -4198,11 +2910,12 @@
                                 "enabled": true,
                                 "version": 1
                             },
-                            "id": "systray_notification",
-                            "message": "Изменения применяются после следующего сохранения или перезапуска повтора",
-                            "title": "Длительность Повтора | 3 минуты",
-                            "icon": "",
-                            "version": 1
+                            "id": "studio_mode",
+                            "action": 3,
+                            "sceneSelection": {
+                                "type": 0,
+                                "name": ""
+                            }
                         },
                         {
                             "segmentSettings": {
@@ -4212,9 +2925,23 @@
                                 "enabled": false,
                                 "version": 1
                             },
+                            "id": "systray_notification",
+                            "message": "",
+                            "title": "Режим студии недоступен в коллекции 🎦REC, используйте 🛜LIVE.",
+                            "icon": ".\\allplay.ico",
+                            "version": 1
+                        },
+                        {
+                            "segmentSettings": {
+                                "collapsed": false,
+                                "useCustomLabel": false,
+                                "customLabel": "My label",
+                                "enabled": true,
+                                "version": 1
+                            },
                             "id": "run",
                             "processConfig": {
-                                "path": "\".\\Notifier\\OBS_Notifier.exe\" --icon=\".\\allplay.ico\" --sound=\".\\Notifier\\muted.wav\" --title=\"Длительность Повтора | 3 минуты\" --text=\"Изменения применяются после следующего сохранения или перезапуска повтора\"",
+                                "path": "\".\\Notifier\\OBS_Notifier.exe\" --icon=\".\\allplay.ico\" --sound=\".\\Notifier\\muted.wav\" --title=\"Ошибка\" --text=\"Режим студии недоступен в коллекции REC, используйте LIVE.\"",
                                 "workingDirectory": "",
                                 "args": []
                             },
@@ -4228,327 +2955,6 @@
                             },
                             "wait": false,
                             "version": 1
-                        },
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "replay_buffer",
-                            "action": 3,
-                            "duration": {
-                                "value": {
-                                    "value": 180.0,
-                                    "type": 0
-                                },
-                                "unit": 0,
-                                "version": 1
-                            }
-                        }
-                    ],
-                    "elseActions": [],
-                    "inputVariables": []
-                },
-                {
-                    "name": "Умный Повтор (5 мин)",
-                    "group": false,
-                    "pauseSaveBehavior": 0,
-                    "pause": false,
-                    "parallel": false,
-                    "checkConditionsInParallel": false,
-                    "onChange": true,
-                    "skipExecOnStart": false,
-                    "stopActionsIfNotDone": false,
-                    "useShortCircuitEvaluation": false,
-                    "useCustomConditionCheckInterval": false,
-                    "customConditionCheckInterval": {
-                        "value": {
-                            "value": 0.3,
-                            "type": 0
-                        },
-                        "unit": 0,
-                        "version": 1
-                    },
-                    "dockSettings": {
-                        "register": false,
-                        "hasRunButton": true,
-                        "hasPauseButton": true,
-                        "hasStatusLabel": false,
-                        "highlightIfConditionsTrue": false,
-                        "runButtonText": "💾 Сохранять 5 мин",
-                        "pauseButtonText": "Pause",
-                        "unpauseButtonText": "Unpause",
-                        "conditionsTrueStatusText": "Conditions are true.",
-                        "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "advss-macro-dock-f400a5ec-bf73-464c-bab6-035e4669d80b",
-                        "version": 1
-                    },
-                    "macroActionConditionSplitterPosition": [
-                        {
-                            "pos": 370
-                        },
-                        {
-                            "pos": 370
-                        }
-                    ],
-                    "macroElseActionSplitterPosition": [
-                        {
-                            "pos": 338
-                        },
-                        {
-                            "pos": 0
-                        }
-                    ],
-                    "registerHotkeys": false,
-                    "pauseHotkey": [],
-                    "unpauseHotkey": [],
-                    "togglePauseHotkey": [],
-                    "conditions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "hotkey",
-                            "logic": 0,
-                            "durationModifier": {
-                                "time_constraint": 0,
-                                "seconds": {
-                                    "value": {
-                                        "value": 0.0,
-                                        "type": 0
-                                    },
-                                    "unit": 0,
-                                    "version": 1
-                                }
-                            },
-                            "desc": "Умный Повтор | Сохранять 5 минут",
-                            "keyBind": [
-                                {
-                                    "shift": true,
-                                    "control": true,
-                                    "alt": true,
-                                    "key": "OBS_KEY_5"
-                                }
-                            ],
-                            "checkPressed": true
-                        }
-                    ],
-                    "actions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "systray_notification",
-                            "message": "Изменения применяются после следующего сохранения или перезапуска повтора",
-                            "title": "Длительность Повтора | 5 минут",
-                            "icon": "",
-                            "version": 1
-                        },
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": false,
-                                "version": 1
-                            },
-                            "id": "run",
-                            "processConfig": {
-                                "path": "\".\\Notifier\\OBS_Notifier.exe\" --icon=\".\\allplay.ico\" --sound=\".\\Notifier\\muted.wav\" --title=\"Длительность Повтора | 5 минут\" --text=\"Изменения применяются после следующего сохранения или перезапуска повтора\"",
-                                "workingDirectory": "",
-                                "args": []
-                            },
-                            "duration": {
-                                "value": {
-                                    "value": 1.0,
-                                    "type": 0
-                                },
-                                "unit": 0,
-                                "version": 1
-                            },
-                            "wait": false,
-                            "version": 1
-                        },
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "replay_buffer",
-                            "action": 3,
-                            "duration": {
-                                "value": {
-                                    "value": 300.0,
-                                    "type": 0
-                                },
-                                "unit": 0,
-                                "version": 1
-                            }
-                        }
-                    ],
-                    "elseActions": [],
-                    "inputVariables": []
-                },
-                {
-                    "name": "Умный Повтор (10 мин)",
-                    "group": false,
-                    "pauseSaveBehavior": 0,
-                    "pause": false,
-                    "parallel": false,
-                    "checkConditionsInParallel": false,
-                    "onChange": true,
-                    "skipExecOnStart": false,
-                    "stopActionsIfNotDone": false,
-                    "useShortCircuitEvaluation": false,
-                    "useCustomConditionCheckInterval": false,
-                    "customConditionCheckInterval": {
-                        "value": {
-                            "value": 0.3,
-                            "type": 0
-                        },
-                        "unit": 0,
-                        "version": 1
-                    },
-                    "dockSettings": {
-                        "register": false,
-                        "hasRunButton": true,
-                        "hasPauseButton": true,
-                        "hasStatusLabel": false,
-                        "highlightIfConditionsTrue": false,
-                        "runButtonText": "💾 Сохранять 10 мин",
-                        "pauseButtonText": "Pause",
-                        "unpauseButtonText": "Unpause",
-                        "conditionsTrueStatusText": "Conditions are true.",
-                        "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "advss-macro-dock-f86a4eb1-9abe-4976-a8c8-ee78b0607622",
-                        "version": 1
-                    },
-                    "macroActionConditionSplitterPosition": [
-                        {
-                            "pos": 370
-                        },
-                        {
-                            "pos": 370
-                        }
-                    ],
-                    "macroElseActionSplitterPosition": [
-                        {
-                            "pos": 338
-                        },
-                        {
-                            "pos": 0
-                        }
-                    ],
-                    "registerHotkeys": false,
-                    "pauseHotkey": [],
-                    "unpauseHotkey": [],
-                    "togglePauseHotkey": [],
-                    "conditions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "hotkey",
-                            "logic": 0,
-                            "durationModifier": {
-                                "time_constraint": 0,
-                                "seconds": {
-                                    "value": {
-                                        "value": 0.0,
-                                        "type": 0
-                                    },
-                                    "unit": 0,
-                                    "version": 1
-                                }
-                            },
-                            "desc": "Умный Повтор | Сохранять 10 минут",
-                            "keyBind": [
-                                {
-                                    "shift": true,
-                                    "control": true,
-                                    "alt": true,
-                                    "key": "OBS_KEY_0"
-                                }
-                            ],
-                            "checkPressed": true
-                        }
-                    ],
-                    "actions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "systray_notification",
-                            "message": "Изменения применяются после следующего сохранения или перезапуска повтора",
-                            "title": "Длительность Повтора | 10 минут",
-                            "icon": "",
-                            "version": 1
-                        },
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": false,
-                                "version": 1
-                            },
-                            "id": "run",
-                            "processConfig": {
-                                "path": "\".\\Notifier\\OBS_Notifier.exe\" --icon=\".\\allplay.ico\" --sound=\".\\Notifier\\muted.wav\" --title=\"Длительность Повтора | 10 минут\" --text=\"Изменения применяются после следующего сохранения или перезапуска повтора\"",
-                                "workingDirectory": "",
-                                "args": []
-                            },
-                            "duration": {
-                                "value": {
-                                    "value": 1.0,
-                                    "type": 0
-                                },
-                                "unit": 0,
-                                "version": 1
-                            },
-                            "wait": false,
-                            "version": 1
-                        },
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "replay_buffer",
-                            "action": 3,
-                            "duration": {
-                                "value": {
-                                    "value": 600.0,
-                                    "type": 0
-                                },
-                                "unit": 0,
-                                "version": 1
-                            }
                         }
                     ],
                     "elseActions": [],
@@ -4737,15 +3143,15 @@
                     },
                     "macroActionConditionSplitterPosition": [
                         {
-                            "pos": 537
+                            "pos": 296
                         },
                         {
-                            "pos": 505
+                            "pos": 279
                         }
                     ],
                     "macroElseActionSplitterPosition": [
                         {
-                            "pos": 473
+                            "pos": 247
                         },
                         {
                             "pos": 0
@@ -4850,15 +3256,15 @@
                     },
                     "macroActionConditionSplitterPosition": [
                         {
-                            "pos": 386
+                            "pos": 213
                         },
                         {
-                            "pos": 656
+                            "pos": 362
                         }
                     ],
                     "macroElseActionSplitterPosition": [
                         {
-                            "pos": 624
+                            "pos": 330
                         },
                         {
                             "pos": 0
@@ -5022,15 +3428,15 @@
                     },
                     "macroActionConditionSplitterPosition": [
                         {
-                            "pos": 390
+                            "pos": 303
                         },
                         {
-                            "pos": 350
+                            "pos": 272
                         }
                     ],
                     "macroElseActionSplitterPosition": [
                         {
-                            "pos": 318
+                            "pos": 240
                         },
                         {
                             "pos": 0
@@ -5150,15 +3556,15 @@
                     },
                     "macroActionConditionSplitterPosition": [
                         {
-                            "pos": 309
+                            "pos": 240
                         },
                         {
-                            "pos": 431
+                            "pos": 335
                         }
                     ],
                     "macroElseActionSplitterPosition": [
                         {
-                            "pos": 399
+                            "pos": 303
                         },
                         {
                             "pos": 0
@@ -5322,18 +3728,18 @@
                     },
                     "macroActionConditionSplitterPosition": [
                         {
-                            "pos": 169
+                            "pos": 131
                         },
                         {
-                            "pos": 571
+                            "pos": 444
                         }
                     ],
                     "macroElseActionSplitterPosition": [
                         {
-                            "pos": 278
+                            "pos": 212
                         },
                         {
-                            "pos": 261
+                            "pos": 200
                         }
                     ],
                     "registerHotkeys": false,
@@ -5616,15 +4022,15 @@
                     },
                     "macroActionConditionSplitterPosition": [
                         {
-                            "pos": 275
+                            "pos": 213
                         },
                         {
-                            "pos": 465
+                            "pos": 362
                         }
                     ],
                     "macroElseActionSplitterPosition": [
                         {
-                            "pos": 433
+                            "pos": 330
                         },
                         {
                             "pos": 0
@@ -5682,7 +4088,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": true,
+                                "enabled": false,
                                 "version": 1
                             },
                             "id": "systray_notification",
@@ -5696,7 +4102,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": false,
+                                "enabled": true,
                                 "version": 1
                             },
                             "id": "run",
@@ -6557,7 +4963,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": true,
+                                "enabled": false,
                                 "version": 1
                             },
                             "id": "systray_notification",
@@ -6571,7 +4977,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": false,
+                                "enabled": true,
                                 "version": 1
                             },
                             "id": "run",
@@ -6630,817 +5036,11 @@
                     "inputVariables": []
                 },
                 {
-                    "name": "ОВЕРЛЕЙ",
-                    "group": true,
-                    "groupData": {
-                        "collapsed": true,
-                        "size": 6
-                    }
-                },
-                {
-                    "name": "🎦 Оверлей",
-                    "group": false,
-                    "pauseSaveBehavior": 0,
-                    "pause": false,
-                    "parallel": false,
-                    "checkConditionsInParallel": false,
-                    "onChange": true,
-                    "skipExecOnStart": false,
-                    "stopActionsIfNotDone": false,
-                    "useShortCircuitEvaluation": false,
-                    "useCustomConditionCheckInterval": false,
-                    "customConditionCheckInterval": {
-                        "value": {
-                            "value": 0.3,
-                            "type": 0
-                        },
-                        "unit": 0,
-                        "version": 1
-                    },
-                    "dockSettings": {
-                        "register": true,
-                        "hasRunButton": false,
-                        "hasPauseButton": true,
-                        "hasStatusLabel": false,
-                        "highlightIfConditionsTrue": false,
-                        "runButtonText": "Run",
-                        "pauseButtonText": "🟢 Оверлей",
-                        "unpauseButtonText": "🔴 Оверлей",
-                        "conditionsTrueStatusText": "Conditions are true.",
-                        "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "advss-macro-dock-bfd7607c-835a-41d4-8ba9-45bbc3cb2b22",
-                        "version": 1
-                    },
-                    "macroActionConditionSplitterPosition": [
-                        {
-                            "pos": 370
-                        },
-                        {
-                            "pos": 370
-                        }
-                    ],
-                    "macroElseActionSplitterPosition": [
-                        {
-                            "pos": 338
-                        },
-                        {
-                            "pos": 0
-                        }
-                    ],
-                    "registerHotkeys": true,
-                    "pauseHotkey": [],
-                    "unpauseHotkey": [],
-                    "togglePauseHotkey": [
-                        {
-                            "shift": true,
-                            "alt": true,
-                            "key": "OBS_KEY_F11"
-                        }
-                    ],
-                    "conditions": [],
-                    "actions": [],
-                    "elseActions": [],
-                    "inputVariables": []
-                },
-                {
-                    "name": "Оверлей Вкл/Выкл",
-                    "group": false,
-                    "pauseSaveBehavior": 0,
-                    "pause": false,
-                    "parallel": false,
-                    "checkConditionsInParallel": false,
-                    "onChange": true,
-                    "skipExecOnStart": false,
-                    "stopActionsIfNotDone": false,
-                    "useShortCircuitEvaluation": false,
-                    "useCustomConditionCheckInterval": false,
-                    "customConditionCheckInterval": {
-                        "value": {
-                            "value": 0.3,
-                            "type": 0
-                        },
-                        "unit": 0,
-                        "version": 1
-                    },
-                    "dockSettings": {
-                        "register": false,
-                        "hasRunButton": true,
-                        "hasPauseButton": true,
-                        "hasStatusLabel": false,
-                        "highlightIfConditionsTrue": false,
-                        "runButtonText": "Run",
-                        "pauseButtonText": "Pause",
-                        "unpauseButtonText": "Unpause",
-                        "conditionsTrueStatusText": "Conditions are true.",
-                        "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "advss-macro-dock-97534594-ede0-4aa3-b28a-2b9d2ef2497a",
-                        "version": 1
-                    },
-                    "macroActionConditionSplitterPosition": [
-                        {
-                            "pos": 248
-                        },
-                        {
-                            "pos": 492
-                        }
-                    ],
-                    "macroElseActionSplitterPosition": [
-                        {
-                            "pos": 230
-                        },
-                        {
-                            "pos": 230
-                        }
-                    ],
-                    "registerHotkeys": false,
-                    "pauseHotkey": [],
-                    "unpauseHotkey": [],
-                    "togglePauseHotkey": [],
-                    "conditions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": false,
-                                "version": 1
-                            },
-                            "id": "macro",
-                            "logic": 0,
-                            "durationModifier": {
-                                "time_constraint": 0,
-                                "seconds": {
-                                    "value": {
-                                        "value": 0.0,
-                                        "type": 0
-                                    },
-                                    "unit": 0,
-                                    "version": 1
-                                }
-                            },
-                            "macros": [],
-                            "macro": "🎦 Оверлей",
-                            "type": 5,
-                            "condition": 0,
-                            "count": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "multiStateCount": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "multiStateCondition": 2,
-                            "actionIndex": {
-                                "value": 1,
-                                "type": 0
-                            },
-                            "version": 1
-                        }
-                    ],
-                    "actions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "macro",
-                            "macro": "Оверлей 1",
-                            "actionIndex": {
-                                "value": 1,
-                                "type": 0
-                            },
-                            "action": 0,
-                            "runOptions": {
-                                "logic": 0,
-                                "reevaluateConditionState": false,
-                                "runElseActions": false,
-                                "skipWhenPaused": true,
-                                "setInputs": false,
-                                "inputs": []
-                            }
-                        },
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "macro",
-                            "macro": "Оверлей 2",
-                            "actionIndex": {
-                                "value": 1,
-                                "type": 0
-                            },
-                            "action": 0,
-                            "runOptions": {
-                                "logic": 0,
-                                "reevaluateConditionState": false,
-                                "runElseActions": false,
-                                "skipWhenPaused": true,
-                                "setInputs": false,
-                                "inputs": []
-                            }
-                        },
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "macro",
-                            "macro": "Оверлей 3",
-                            "actionIndex": {
-                                "value": 1,
-                                "type": 0
-                            },
-                            "action": 0,
-                            "runOptions": {
-                                "logic": 0,
-                                "reevaluateConditionState": false,
-                                "runElseActions": false,
-                                "skipWhenPaused": true,
-                                "setInputs": false,
-                                "inputs": []
-                            }
-                        }
-                    ],
-                    "elseActions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "macro",
-                            "macro": "Оверлей 1",
-                            "actionIndex": {
-                                "value": 1,
-                                "type": 0
-                            },
-                            "action": 1,
-                            "runOptions": {
-                                "logic": 0,
-                                "reevaluateConditionState": false,
-                                "runElseActions": false,
-                                "skipWhenPaused": true,
-                                "setInputs": false,
-                                "inputs": []
-                            }
-                        },
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "macro",
-                            "macro": "Оверлей 2",
-                            "actionIndex": {
-                                "value": 1,
-                                "type": 0
-                            },
-                            "action": 1,
-                            "runOptions": {
-                                "logic": 0,
-                                "reevaluateConditionState": false,
-                                "runElseActions": false,
-                                "skipWhenPaused": true,
-                                "setInputs": false,
-                                "inputs": []
-                            }
-                        },
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "macro",
-                            "macro": "Оверлей 3",
-                            "actionIndex": {
-                                "value": 1,
-                                "type": 0
-                            },
-                            "action": 1,
-                            "runOptions": {
-                                "logic": 0,
-                                "reevaluateConditionState": false,
-                                "runElseActions": false,
-                                "skipWhenPaused": true,
-                                "setInputs": false,
-                                "inputs": []
-                            }
-                        }
-                    ],
-                    "inputVariables": []
-                },
-                {
-                    "name": "Оверлей 1",
-                    "group": false,
-                    "pauseSaveBehavior": 0,
-                    "pause": false,
-                    "parallel": true,
-                    "checkConditionsInParallel": false,
-                    "onChange": true,
-                    "skipExecOnStart": false,
-                    "stopActionsIfNotDone": false,
-                    "useShortCircuitEvaluation": false,
-                    "useCustomConditionCheckInterval": false,
-                    "customConditionCheckInterval": {
-                        "value": {
-                            "value": 0.3,
-                            "type": 0
-                        },
-                        "unit": 0,
-                        "version": 1
-                    },
-                    "dockSettings": {
-                        "register": false,
-                        "hasRunButton": true,
-                        "hasPauseButton": true,
-                        "hasStatusLabel": false,
-                        "highlightIfConditionsTrue": false,
-                        "runButtonText": "Run",
-                        "pauseButtonText": "Pause",
-                        "unpauseButtonText": "Unpause",
-                        "conditionsTrueStatusText": "Conditions are true.",
-                        "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "advss-macro-dock-e77cd966-8d2d-4f60-acb7-f2330aac28ec",
-                        "version": 1
-                    },
-                    "macroActionConditionSplitterPosition": [
-                        {
-                            "pos": 372
-                        },
-                        {
-                            "pos": 368
-                        }
-                    ],
-                    "macroElseActionSplitterPosition": [
-                        {
-                            "pos": 336
-                        },
-                        {
-                            "pos": 0
-                        }
-                    ],
-                    "registerHotkeys": false,
-                    "pauseHotkey": [],
-                    "unpauseHotkey": [],
-                    "togglePauseHotkey": [],
-                    "conditions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": false,
-                                "version": 1
-                            },
-                            "id": "recording",
-                            "logic": 0,
-                            "durationModifier": {
-                                "time_constraint": 0,
-                                "seconds": {
-                                    "value": {
-                                        "value": 0.0,
-                                        "type": 0
-                                    },
-                                    "unit": 0,
-                                    "version": 1
-                                }
-                            },
-                            "state": 2,
-                            "duration": {
-                                "value": {
-                                    "value": 0.0,
-                                    "type": 0
-                                },
-                                "unit": 0,
-                                "version": 1
-                            }
-                        }
-                    ],
-                    "actions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "run",
-                            "processConfig": {
-                                "path": ".\\TransperentOverlay\\TransparentOverlay",
-                                "workingDirectory": "",
-                                "args": []
-                            },
-                            "duration": {
-                                "value": {
-                                    "value": 1.0,
-                                    "type": 0
-                                },
-                                "unit": 0,
-                                "version": 1
-                            },
-                            "wait": false,
-                            "version": 1
-                        }
-                    ],
-                    "elseActions": [],
-                    "inputVariables": []
-                },
-                {
-                    "name": "Оверлей 2",
-                    "group": false,
-                    "pauseSaveBehavior": 0,
-                    "pause": false,
-                    "parallel": true,
-                    "checkConditionsInParallel": false,
-                    "onChange": true,
-                    "skipExecOnStart": false,
-                    "stopActionsIfNotDone": false,
-                    "useShortCircuitEvaluation": false,
-                    "useCustomConditionCheckInterval": false,
-                    "customConditionCheckInterval": {
-                        "value": {
-                            "value": 0.3,
-                            "type": 0
-                        },
-                        "unit": 0,
-                        "version": 1
-                    },
-                    "dockSettings": {
-                        "register": false,
-                        "hasRunButton": true,
-                        "hasPauseButton": true,
-                        "hasStatusLabel": false,
-                        "highlightIfConditionsTrue": false,
-                        "runButtonText": "Run",
-                        "pauseButtonText": "Pause",
-                        "unpauseButtonText": "Unpause",
-                        "conditionsTrueStatusText": "Conditions are true.",
-                        "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "advss-macro-dock-9313fc79-3258-4799-9992-620569d54a7c",
-                        "version": 1
-                    },
-                    "macroActionConditionSplitterPosition": [
-                        {
-                            "pos": 370
-                        },
-                        {
-                            "pos": 370
-                        }
-                    ],
-                    "macroElseActionSplitterPosition": [
-                        {
-                            "pos": 338
-                        },
-                        {
-                            "pos": 0
-                        }
-                    ],
-                    "registerHotkeys": false,
-                    "pauseHotkey": [],
-                    "unpauseHotkey": [],
-                    "togglePauseHotkey": [],
-                    "conditions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": false,
-                                "version": 1
-                            },
-                            "id": "recording",
-                            "logic": 0,
-                            "durationModifier": {
-                                "time_constraint": 0,
-                                "seconds": {
-                                    "value": {
-                                        "value": 0.0,
-                                        "type": 0
-                                    },
-                                    "unit": 0,
-                                    "version": 1
-                                }
-                            },
-                            "state": 0,
-                            "duration": {
-                                "value": {
-                                    "value": 0.0,
-                                    "type": 0
-                                },
-                                "unit": 0,
-                                "version": 1
-                            }
-                        }
-                    ],
-                    "actions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "run",
-                            "processConfig": {
-                                "path": ".\\TransperentOverlay\\TransparentOverlayCloser",
-                                "workingDirectory": "",
-                                "args": []
-                            },
-                            "duration": {
-                                "value": {
-                                    "value": 1.0,
-                                    "type": 0
-                                },
-                                "unit": 0,
-                                "version": 1
-                            },
-                            "wait": false,
-                            "version": 1
-                        }
-                    ],
-                    "elseActions": [],
-                    "inputVariables": []
-                },
-                {
-                    "name": "Оверлей 3",
-                    "group": false,
-                    "pauseSaveBehavior": 0,
-                    "pause": false,
-                    "parallel": false,
-                    "checkConditionsInParallel": false,
-                    "onChange": true,
-                    "skipExecOnStart": false,
-                    "stopActionsIfNotDone": false,
-                    "useShortCircuitEvaluation": false,
-                    "useCustomConditionCheckInterval": false,
-                    "customConditionCheckInterval": {
-                        "value": {
-                            "value": 0.3,
-                            "type": 0
-                        },
-                        "unit": 0,
-                        "version": 1
-                    },
-                    "dockSettings": {
-                        "register": false,
-                        "hasRunButton": true,
-                        "hasPauseButton": true,
-                        "hasStatusLabel": false,
-                        "highlightIfConditionsTrue": false,
-                        "runButtonText": "Run",
-                        "pauseButtonText": "Pause",
-                        "unpauseButtonText": "Unpause",
-                        "conditionsTrueStatusText": "Conditions are true.",
-                        "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "advss-macro-dock-9a84e256-510a-46c1-bf52-1e43c80ddb8d",
-                        "version": 1
-                    },
-                    "macroActionConditionSplitterPosition": [
-                        {
-                            "pos": 370
-                        },
-                        {
-                            "pos": 370
-                        }
-                    ],
-                    "macroElseActionSplitterPosition": [
-                        {
-                            "pos": 338
-                        },
-                        {
-                            "pos": 0
-                        }
-                    ],
-                    "registerHotkeys": false,
-                    "pauseHotkey": [],
-                    "unpauseHotkey": [],
-                    "togglePauseHotkey": [],
-                    "conditions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "replay_buffer",
-                            "logic": 0,
-                            "durationModifier": {
-                                "time_constraint": 0,
-                                "seconds": {
-                                    "value": {
-                                        "value": 0.0,
-                                        "type": 0
-                                    },
-                                    "unit": 0,
-                                    "version": 1
-                                }
-                            },
-                            "state": 2
-                        }
-                    ],
-                    "actions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "run",
-                            "processConfig": {
-                                "path": ".\\TransperentOverlay\\TransparentOverlay",
-                                "workingDirectory": "",
-                                "args": [
-                                    {
-                                        "arg": "replay"
-                                    }
-                                ]
-                            },
-                            "duration": {
-                                "value": {
-                                    "value": 1.0,
-                                    "type": 0
-                                },
-                                "unit": 0,
-                                "version": 1
-                            },
-                            "wait": false,
-                            "version": 1
-                        }
-                    ],
-                    "elseActions": [],
-                    "inputVariables": []
-                },
-                {
-                    "name": "Подсказка Оверлей",
-                    "group": false,
-                    "pauseSaveBehavior": 0,
-                    "pause": false,
-                    "parallel": true,
-                    "checkConditionsInParallel": false,
-                    "onChange": true,
-                    "skipExecOnStart": true,
-                    "stopActionsIfNotDone": false,
-                    "useShortCircuitEvaluation": false,
-                    "useCustomConditionCheckInterval": false,
-                    "customConditionCheckInterval": {
-                        "value": {
-                            "value": 0.3,
-                            "type": 0
-                        },
-                        "unit": 0,
-                        "version": 1
-                    },
-                    "dockSettings": {
-                        "register": false,
-                        "hasRunButton": true,
-                        "hasPauseButton": true,
-                        "hasStatusLabel": false,
-                        "highlightIfConditionsTrue": false,
-                        "runButtonText": "Run",
-                        "pauseButtonText": "Док-Панели Max.mov",
-                        "unpauseButtonText": "Свои Док Панели",
-                        "conditionsTrueStatusText": "Conditions are true.",
-                        "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "advss-macro-dock-47a40786-a4b7-48f4-b5e3-314f96a41bf9",
-                        "version": 1
-                    },
-                    "macroActionConditionSplitterPosition": [
-                        {
-                            "pos": 145
-                        },
-                        {
-                            "pos": 595
-                        }
-                    ],
-                    "macroElseActionSplitterPosition": [
-                        {
-                            "pos": 329
-                        },
-                        {
-                            "pos": 234
-                        }
-                    ],
-                    "registerHotkeys": false,
-                    "pauseHotkey": [],
-                    "unpauseHotkey": [],
-                    "togglePauseHotkey": [],
-                    "conditions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": false,
-                                "version": 1
-                            },
-                            "id": "macro",
-                            "logic": 0,
-                            "durationModifier": {
-                                "time_constraint": 0,
-                                "seconds": {
-                                    "value": {
-                                        "value": 0.0,
-                                        "type": 0
-                                    },
-                                    "unit": 0,
-                                    "version": 1
-                                }
-                            },
-                            "macros": [],
-                            "macro": "🎦 Оверлей",
-                            "type": 5,
-                            "condition": 0,
-                            "count": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "multiStateCount": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "multiStateCondition": 2,
-                            "actionIndex": {
-                                "value": 1,
-                                "type": 0
-                            },
-                            "version": 1
-                        }
-                    ],
-                    "actions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "systray_notification",
-                            "message": "Индикатор записи и повтора не будет отображаться в верхнем правом углу.",
-                            "title": "Оверлей Отключён",
-                            "icon": ".\\allplay.ico",
-                            "version": 1
-                        },
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": false,
-                                "version": 1
-                            },
-                            "id": "run",
-                            "processConfig": {
-                                "path": "\".\\Notifier\\OBS_Notifier.exe\" --icon=\".\\allplay.ico\" --sound=\".\\Notifier\\muted.wav\" --title=\"Оверлей Отключён\" --text=\"Индикатор записи и повтора не будет отображаться в верхнем правом углу.\"",
-                                "workingDirectory": "",
-                                "args": []
-                            },
-                            "duration": {
-                                "value": {
-                                    "value": 1.0,
-                                    "type": 0
-                                },
-                                "unit": 0,
-                                "version": 1
-                            },
-                            "wait": false,
-                            "version": 1
-                        }
-                    ],
-                    "elseActions": [],
-                    "inputVariables": []
-                },
-                {
                     "name": "УВЕДОМЛЕНИЯ",
                     "group": true,
                     "groupData": {
                         "collapsed": true,
-                        "size": 11
+                        "size": 9
                     }
                 },
                 {
@@ -7479,15 +5079,15 @@
                     },
                     "macroActionConditionSplitterPosition": [
                         {
-                            "pos": 370
+                            "pos": 189
                         },
                         {
-                            "pos": 370
+                            "pos": 189
                         }
                     ],
                     "macroElseActionSplitterPosition": [
                         {
-                            "pos": 338
+                            "pos": 157
                         },
                         {
                             "pos": 0
@@ -7538,15 +5138,15 @@
                     },
                     "macroActionConditionSplitterPosition": [
                         {
-                            "pos": 232
+                            "pos": 235
                         },
                         {
-                            "pos": 508
+                            "pos": 517
                         }
                     ],
                     "macroElseActionSplitterPosition": [
                         {
-                            "pos": 476
+                            "pos": 485
                         },
                         {
                             "pos": 0
@@ -7626,7 +5226,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": true,
+                                "enabled": false,
                                 "version": 1
                             },
                             "id": "systray_notification",
@@ -7640,7 +5240,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": false,
+                                "enabled": true,
                                 "version": 1
                             },
                             "id": "run",
@@ -7700,15 +5300,15 @@
                     },
                     "macroActionConditionSplitterPosition": [
                         {
-                            "pos": 310
+                            "pos": 314
                         },
                         {
-                            "pos": 430
+                            "pos": 438
                         }
                     ],
                     "macroElseActionSplitterPosition": [
                         {
-                            "pos": 398
+                            "pos": 406
                         },
                         {
                             "pos": 0
@@ -7788,7 +5388,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": true,
+                                "enabled": false,
                                 "version": 1
                             },
                             "id": "systray_notification",
@@ -7802,7 +5402,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": false,
+                                "enabled": true,
                                 "version": 1
                             },
                             "id": "run",
@@ -7862,18 +5462,18 @@
                     },
                     "macroActionConditionSplitterPosition": [
                         {
-                            "pos": 176
+                            "pos": 179
                         },
                         {
-                            "pos": 564
+                            "pos": 573
                         }
                     ],
                     "macroElseActionSplitterPosition": [
                         {
-                            "pos": 317
+                            "pos": 323
                         },
                         {
-                            "pos": 215
+                            "pos": 218
                         }
                     ],
                     "registerHotkeys": false,
@@ -7919,7 +5519,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": true,
+                                "enabled": false,
                                 "version": 1
                             },
                             "id": "systray_notification",
@@ -7933,7 +5533,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": false,
+                                "enabled": true,
                                 "version": 1
                             },
                             "id": "run",
@@ -8019,15 +5619,15 @@
                     },
                     "macroActionConditionSplitterPosition": [
                         {
-                            "pos": 332
+                            "pos": 338
                         },
                         {
-                            "pos": 408
+                            "pos": 414
                         }
                     ],
                     "macroElseActionSplitterPosition": [
                         {
-                            "pos": 376
+                            "pos": 382
                         },
                         {
                             "pos": 0
@@ -8068,7 +5668,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": true,
+                                "enabled": false,
                                 "version": 1
                             },
                             "id": "systray_notification",
@@ -8082,321 +5682,12 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": false,
+                                "enabled": true,
                                 "version": 1
                             },
                             "id": "run",
                             "processConfig": {
                                 "path": "\".\\Notifier\\OBS_Notifier.exe\" --icon=\".\\allplay.ico\" --sound=\"C:\\Windows\\Media\\Speech Sleep.wav\" \"ПОВТОР СОХРАНЁН\" --sound=\".\\Notifier\\muted.wav\" ",
-                                "workingDirectory": "",
-                                "args": []
-                            },
-                            "duration": {
-                                "value": {
-                                    "value": 1.0,
-                                    "type": 0
-                                },
-                                "unit": 0,
-                                "version": 1
-                            },
-                            "wait": false,
-                            "version": 1
-                        }
-                    ],
-                    "elseActions": [],
-                    "inputVariables": []
-                },
-                {
-                    "name": "Уведомление Умный Повтор",
-                    "group": false,
-                    "pauseSaveBehavior": 0,
-                    "pause": false,
-                    "parallel": true,
-                    "checkConditionsInParallel": false,
-                    "onChange": true,
-                    "skipExecOnStart": false,
-                    "stopActionsIfNotDone": false,
-                    "useShortCircuitEvaluation": false,
-                    "useCustomConditionCheckInterval": false,
-                    "customConditionCheckInterval": {
-                        "value": {
-                            "value": 0.3,
-                            "type": 0
-                        },
-                        "unit": 0,
-                        "version": 1
-                    },
-                    "dockSettings": {
-                        "register": false,
-                        "hasRunButton": true,
-                        "hasPauseButton": true,
-                        "hasStatusLabel": false,
-                        "highlightIfConditionsTrue": false,
-                        "runButtonText": "Run",
-                        "pauseButtonText": "Док-Панели Max.mov",
-                        "unpauseButtonText": "Свои Док Панели",
-                        "conditionsTrueStatusText": "Conditions are true.",
-                        "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "advss-macro-dock-161a9911-cdba-4100-ae4e-c4a4f54cb70d",
-                        "version": 1
-                    },
-                    "macroActionConditionSplitterPosition": [
-                        {
-                            "pos": 290
-                        },
-                        {
-                            "pos": 450
-                        }
-                    ],
-                    "macroElseActionSplitterPosition": [
-                        {
-                            "pos": 418
-                        },
-                        {
-                            "pos": 0
-                        }
-                    ],
-                    "registerHotkeys": false,
-                    "pauseHotkey": [],
-                    "unpauseHotkey": [],
-                    "togglePauseHotkey": [],
-                    "conditions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": false,
-                                "version": 1
-                            },
-                            "id": "macro",
-                            "logic": 0,
-                            "durationModifier": {
-                                "time_constraint": 0,
-                                "seconds": {
-                                    "value": {
-                                        "value": 0.0,
-                                        "type": 0
-                                    },
-                                    "unit": 0,
-                                    "version": 1
-                                }
-                            },
-                            "macros": [],
-                            "macro": "🎦 Повтор",
-                            "type": 5,
-                            "condition": 0,
-                            "count": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "multiStateCount": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "multiStateCondition": 2,
-                            "actionIndex": {
-                                "value": 1,
-                                "type": 0
-                            },
-                            "version": 1
-                        }
-                    ],
-                    "actions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "systray_notification",
-                            "message": "Вы не сможете сохранять записи уже произошедших моментов",
-                            "title": "Умный Повтор Отключен",
-                            "icon": ".\\allplay.ico",
-                            "version": 1
-                        },
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": false,
-                                "version": 1
-                            },
-                            "id": "run",
-                            "processConfig": {
-                                "path": "\".\\Notifier\\OBS_Notifier.exe\" --icon=\".\\allplay.ico\" --sound=\".\\Notifier\\muted.wav\" --title=\"Умный Повтор Отключен\" --text=\"Вы не сможете сохранять записи уже произошедших моментов\"",
-                                "workingDirectory": "",
-                                "args": []
-                            },
-                            "duration": {
-                                "value": {
-                                    "value": 1.0,
-                                    "type": 0
-                                },
-                                "unit": 0,
-                                "version": 1
-                            },
-                            "wait": false,
-                            "version": 1
-                        }
-                    ],
-                    "elseActions": [],
-                    "inputVariables": []
-                },
-                {
-                    "name": "Уведомление Место на Диске",
-                    "group": false,
-                    "pauseSaveBehavior": 0,
-                    "pause": false,
-                    "parallel": true,
-                    "checkConditionsInParallel": false,
-                    "onChange": true,
-                    "skipExecOnStart": false,
-                    "stopActionsIfNotDone": false,
-                    "useShortCircuitEvaluation": false,
-                    "useCustomConditionCheckInterval": false,
-                    "customConditionCheckInterval": {
-                        "value": {
-                            "value": 0.3,
-                            "type": 0
-                        },
-                        "unit": 0,
-                        "version": 1
-                    },
-                    "dockSettings": {
-                        "register": false,
-                        "hasRunButton": true,
-                        "hasPauseButton": true,
-                        "hasStatusLabel": false,
-                        "highlightIfConditionsTrue": false,
-                        "runButtonText": "Run",
-                        "pauseButtonText": "Док-Панели Max.mov",
-                        "unpauseButtonText": "Свои Док Панели",
-                        "conditionsTrueStatusText": "Conditions are true.",
-                        "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "advss-macro-dock-2754b7a7-8fff-4234-949c-aa88ec0b1d4e",
-                        "version": 1
-                    },
-                    "macroActionConditionSplitterPosition": [
-                        {
-                            "pos": 274
-                        },
-                        {
-                            "pos": 466
-                        }
-                    ],
-                    "macroElseActionSplitterPosition": [
-                        {
-                            "pos": 434
-                        },
-                        {
-                            "pos": 0
-                        }
-                    ],
-                    "registerHotkeys": false,
-                    "pauseHotkey": [],
-                    "unpauseHotkey": [],
-                    "togglePauseHotkey": [],
-                    "conditions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": false,
-                                "version": 1
-                            },
-                            "id": "macro",
-                            "logic": 1,
-                            "durationModifier": {
-                                "time_constraint": 0,
-                                "seconds": {
-                                    "value": {
-                                        "value": 0.0,
-                                        "type": 0
-                                    },
-                                    "unit": 0,
-                                    "version": 1
-                                }
-                            },
-                            "macros": [],
-                            "macro": "🎦 Повтор",
-                            "type": 5,
-                            "condition": 0,
-                            "count": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "multiStateCount": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "multiStateCondition": 2,
-                            "actionIndex": {
-                                "value": 1,
-                                "type": 0
-                            },
-                            "version": 1
-                        },
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "obs_stats",
-                            "logic": 103,
-                            "durationModifier": {
-                                "time_constraint": 0,
-                                "seconds": {
-                                    "value": {
-                                        "value": 0.0,
-                                        "type": 0
-                                    },
-                                    "unit": 0,
-                                    "version": 1
-                                }
-                            },
-                            "value": {
-                                "value": 0.0,
-                                "type": 0
-                            },
-                            "type": 2,
-                            "condition": 1,
-                            "version": 1
-                        }
-                    ],
-                    "actions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "systray_notification",
-                            "message": "Вам доступно сохранение уже произошедших моментов",
-                            "title": "Умный Повтор Включён",
-                            "icon": ".\\allplay.ico",
-                            "version": 1
-                        },
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": false,
-                                "version": 1
-                            },
-                            "id": "run",
-                            "processConfig": {
-                                "path": "\".\\Notifier\\OBS_Notifier.exe\" --icon=\".\\allplay.ico\" --sound=\".\\Notifier\\muted.wav\" --title=\"Умный Повтор Включён\" --text=\"Вам доступно сохранение уже произошедших моментов\"",
                                 "workingDirectory": "",
                                 "args": []
                             },
@@ -8451,15 +5742,15 @@
                     },
                     "macroActionConditionSplitterPosition": [
                         {
-                            "pos": 373
+                            "pos": 379
                         },
                         {
-                            "pos": 367
+                            "pos": 373
                         }
                     ],
                     "macroElseActionSplitterPosition": [
                         {
-                            "pos": 335
+                            "pos": 341
                         },
                         {
                             "pos": 0
@@ -8538,7 +5829,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": true,
+                                "enabled": false,
                                 "version": 1
                             },
                             "id": "systray_notification",
@@ -8552,7 +5843,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": false,
+                                "enabled": true,
                                 "version": 1
                             },
                             "id": "run",
@@ -8612,18 +5903,18 @@
                     },
                     "macroActionConditionSplitterPosition": [
                         {
-                            "pos": 151
+                            "pos": 145
                         },
                         {
-                            "pos": 614
+                            "pos": 592
                         }
                     ],
                     "macroElseActionSplitterPosition": [
                         {
-                            "pos": 311
+                            "pos": 299
                         },
                         {
-                            "pos": 271
+                            "pos": 261
                         }
                     ],
                     "registerHotkeys": false,
@@ -8802,7 +6093,6 @@
                                 "version": 1
                             },
                             "id": "macro",
-                            "macro": "Уведомление Умный Повтор",
                             "actionIndex": {
                                 "value": 1,
                                 "type": 0
@@ -8826,7 +6116,6 @@
                                 "version": 1
                             },
                             "id": "macro",
-                            "macro": "Уведомление Место на Диске",
                             "actionIndex": {
                                 "value": 1,
                                 "type": 0
@@ -8972,7 +6261,6 @@
                                 "version": 1
                             },
                             "id": "macro",
-                            "macro": "Уведомление Умный Повтор",
                             "actionIndex": {
                                 "value": 1,
                                 "type": 0
@@ -8996,7 +6284,6 @@
                                 "version": 1
                             },
                             "id": "macro",
-                            "macro": "Уведомление Место на Диске",
                             "actionIndex": {
                                 "value": 1,
                                 "type": 0
@@ -9050,15 +6337,15 @@
                     },
                     "macroActionConditionSplitterPosition": [
                         {
-                            "pos": 302
+                            "pos": 311
                         },
                         {
-                            "pos": 438
+                            "pos": 453
                         }
                     ],
                     "macroElseActionSplitterPosition": [
                         {
-                            "pos": 406
+                            "pos": 421
                         },
                         {
                             "pos": 0
@@ -9116,7 +6403,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": true,
+                                "enabled": false,
                                 "version": 1
                             },
                             "id": "systray_notification",
@@ -9130,7 +6417,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": false,
+                                "enabled": true,
                                 "version": 1
                             },
                             "id": "run",
@@ -9190,18 +6477,18 @@
                     },
                     "macroActionConditionSplitterPosition": [
                         {
-                            "pos": 288
+                            "pos": 227
                         },
                         {
-                            "pos": 452
+                            "pos": 560
                         }
                     ],
                     "macroElseActionSplitterPosition": [
                         {
-                            "pos": 0
+                            "pos": 433
                         },
                         {
-                            "pos": 420
+                            "pos": 95
                         }
                     ],
                     "registerHotkeys": false,
@@ -9500,9 +6787,9 @@
                                 "version": 1
                             },
                             "id": "macro",
-                            "macro": "Уведомление Умный Повтор",
+                            "macro": "Закрыть Ошибку 2",
                             "actionIndex": {
-                                "value": 1,
+                                "value": 2,
                                 "type": 0
                             },
                             "action": 5,
@@ -9524,9 +6811,9 @@
                                 "version": 1
                             },
                             "id": "macro",
-                            "macro": "Уведомление Умный Повтор",
+                            "macro": "Закрыть Ошибку 2",
                             "actionIndex": {
-                                "value": 2,
+                                "value": 3,
                                 "type": 0
                             },
                             "action": 6,
@@ -9548,9 +6835,9 @@
                                 "version": 1
                             },
                             "id": "macro",
-                            "macro": "Уведомление Место на Диске",
+                            "macro": "Закрыть Ошибку 3",
                             "actionIndex": {
-                                "value": 1,
+                                "value": 2,
                                 "type": 0
                             },
                             "action": 5,
@@ -9572,9 +6859,9 @@
                                 "version": 1
                             },
                             "id": "macro",
-                            "macro": "Уведомление Место на Диске",
+                            "macro": "Закрыть Ошибку 3",
                             "actionIndex": {
-                                "value": 2,
+                                "value": 3,
                                 "type": 0
                             },
                             "action": 6,
@@ -9838,9 +7125,9 @@
                                 "version": 1
                             },
                             "id": "macro",
-                            "macro": "Уведомление Умный Повтор",
+                            "macro": "Закрыть Ошибку 2",
                             "actionIndex": {
-                                "value": 1,
+                                "value": 2,
                                 "type": 0
                             },
                             "action": 6,
@@ -9862,9 +7149,9 @@
                                 "version": 1
                             },
                             "id": "macro",
-                            "macro": "Уведомление Умный Повтор",
+                            "macro": "Закрыть Ошибку 2",
                             "actionIndex": {
-                                "value": 2,
+                                "value": 3,
                                 "type": 0
                             },
                             "action": 5,
@@ -9886,9 +7173,9 @@
                                 "version": 1
                             },
                             "id": "macro",
-                            "macro": "Уведомление Место на Диске",
+                            "macro": "Закрыть Ошибку 3",
                             "actionIndex": {
-                                "value": 1,
+                                "value": 2,
                                 "type": 0
                             },
                             "action": 6,
@@ -9910,9 +7197,9 @@
                                 "version": 1
                             },
                             "id": "macro",
-                            "macro": "Уведомление Место на Диске",
+                            "macro": "Закрыть Ошибку 3",
                             "actionIndex": {
-                                "value": 2,
+                                "value": 3,
                                 "type": 0
                             },
                             "action": 5,
@@ -9932,7 +7219,7 @@
                     "name": "ПОДСКАЗКИ",
                     "group": true,
                     "groupData": {
-                        "collapsed": true,
+                        "collapsed": false,
                         "size": 5
                     }
                 },
@@ -9940,7 +7227,7 @@
                     "name": "🎦 Тип Уведомлений и Подсказок",
                     "group": false,
                     "pauseSaveBehavior": 0,
-                    "pause": false,
+                    "pause": true,
                     "parallel": false,
                     "checkConditionsInParallel": false,
                     "onChange": true,
@@ -9972,15 +7259,15 @@
                     },
                     "macroActionConditionSplitterPosition": [
                         {
-                            "pos": 370
+                            "pos": 394
                         },
                         {
-                            "pos": 370
+                            "pos": 393
                         }
                     ],
                     "macroElseActionSplitterPosition": [
                         {
-                            "pos": 338
+                            "pos": 361
                         },
                         {
                             "pos": 0
@@ -10031,15 +7318,15 @@
                     },
                     "macroActionConditionSplitterPosition": [
                         {
-                            "pos": 372
+                            "pos": 199
                         },
                         {
-                            "pos": 368
+                            "pos": 196
                         }
                     ],
                     "macroElseActionSplitterPosition": [
                         {
-                            "pos": 336
+                            "pos": 164
                         },
                         {
                             "pos": 0
@@ -10090,15 +7377,15 @@
                     },
                     "macroActionConditionSplitterPosition": [
                         {
-                            "pos": 375
+                            "pos": 192
                         },
                         {
-                            "pos": 365
+                            "pos": 186
                         }
                     ],
                     "macroElseActionSplitterPosition": [
                         {
-                            "pos": 333
+                            "pos": 154
                         },
                         {
                             "pos": 0
@@ -10146,7 +7433,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": true,
+                                "enabled": false,
                                 "version": 1
                             },
                             "id": "systray_notification",
@@ -10160,7 +7447,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": false,
+                                "enabled": true,
                                 "version": 1
                             },
                             "id": "run",
@@ -10220,18 +7507,18 @@
                     },
                     "macroActionConditionSplitterPosition": [
                         {
-                            "pos": 208
+                            "pos": 103
                         },
                         {
-                            "pos": 557
+                            "pos": 275
                         }
                     ],
                     "macroElseActionSplitterPosition": [
                         {
-                            "pos": 266
+                            "pos": 123
                         },
                         {
-                            "pos": 259
+                            "pos": 120
                         }
                     ],
                     "registerHotkeys": false,
@@ -10562,18 +7849,18 @@
                     },
                     "macroActionConditionSplitterPosition": [
                         {
-                            "pos": 150
+                            "pos": 74
                         },
                         {
-                            "pos": 615
+                            "pos": 304
                         }
                     ],
                     "macroElseActionSplitterPosition": [
                         {
-                            "pos": 395
+                            "pos": 184
                         },
                         {
-                            "pos": 188
+                            "pos": 88
                         }
                     ],
                     "registerHotkeys": false,
@@ -10680,7 +7967,6 @@
                                 "version": 1
                             },
                             "id": "macro",
-                            "macro": "Умный Повтор (3 мин)",
                             "actionIndex": {
                                 "value": 1,
                                 "type": 0
@@ -10704,7 +7990,6 @@
                                 "version": 1
                             },
                             "id": "macro",
-                            "macro": "Умный Повтор (5 мин)",
                             "actionIndex": {
                                 "value": 1,
                                 "type": 0
@@ -10728,7 +8013,6 @@
                                 "version": 1
                             },
                             "id": "macro",
-                            "macro": "Умный Повтор (10 мин)",
                             "actionIndex": {
                                 "value": 1,
                                 "type": 0
@@ -10752,7 +8036,6 @@
                                 "version": 1
                             },
                             "id": "macro",
-                            "macro": "Умный Повтор (3 мин)",
                             "actionIndex": {
                                 "value": 2,
                                 "type": 0
@@ -10776,7 +8059,6 @@
                                 "version": 1
                             },
                             "id": "macro",
-                            "macro": "Умный Повтор (5 мин)",
                             "actionIndex": {
                                 "value": 2,
                                 "type": 0
@@ -10800,7 +8082,6 @@
                                 "version": 1
                             },
                             "id": "macro",
-                            "macro": "Умный Повтор (10 мин)",
                             "actionIndex": {
                                 "value": 2,
                                 "type": 0
@@ -10920,7 +8201,6 @@
                                 "version": 1
                             },
                             "id": "macro",
-                            "macro": "Подсказка Оверлей",
                             "actionIndex": {
                                 "value": 1,
                                 "type": 0
@@ -10944,7 +8224,6 @@
                                 "version": 1
                             },
                             "id": "macro",
-                            "macro": "Подсказка Оверлей",
                             "actionIndex": {
                                 "value": 2,
                                 "type": 0
@@ -11162,7 +8441,6 @@
                                 "version": 1
                             },
                             "id": "macro",
-                            "macro": "Умный Повтор (3 мин)",
                             "actionIndex": {
                                 "value": 1,
                                 "type": 0
@@ -11186,7 +8464,6 @@
                                 "version": 1
                             },
                             "id": "macro",
-                            "macro": "Умный Повтор (5 мин)",
                             "actionIndex": {
                                 "value": 1,
                                 "type": 0
@@ -11210,7 +8487,6 @@
                                 "version": 1
                             },
                             "id": "macro",
-                            "macro": "Умный Повтор (10 мин)",
                             "actionIndex": {
                                 "value": 1,
                                 "type": 0
@@ -11234,7 +8510,6 @@
                                 "version": 1
                             },
                             "id": "macro",
-                            "macro": "Умный Повтор (3 мин)",
                             "actionIndex": {
                                 "value": 2,
                                 "type": 0
@@ -11258,7 +8533,6 @@
                                 "version": 1
                             },
                             "id": "macro",
-                            "macro": "Умный Повтор (5 мин)",
                             "actionIndex": {
                                 "value": 2,
                                 "type": 0
@@ -11282,7 +8556,6 @@
                                 "version": 1
                             },
                             "id": "macro",
-                            "macro": "Умный Повтор (10 мин)",
                             "actionIndex": {
                                 "value": 2,
                                 "type": 0
@@ -11402,7 +8675,6 @@
                                 "version": 1
                             },
                             "id": "macro",
-                            "macro": "Подсказка Оверлей",
                             "actionIndex": {
                                 "value": 1,
                                 "type": 0
@@ -11426,7 +8698,6 @@
                                 "version": 1
                             },
                             "id": "macro",
-                            "macro": "Подсказка Оверлей",
                             "actionIndex": {
                                 "value": 2,
                                 "type": 0
@@ -11640,7 +8911,7 @@
                     "name": "БЫСТРЫЙ ПРОСМОТР",
                     "group": true,
                     "groupData": {
-                        "collapsed": true,
+                        "collapsed": false,
                         "size": 3
                     }
                 },
@@ -11680,15 +8951,15 @@
                     },
                     "macroActionConditionSplitterPosition": [
                         {
-                            "pos": 374
+                            "pos": 209
                         },
                         {
-                            "pos": 366
+                            "pos": 203
                         }
                     ],
                     "macroElseActionSplitterPosition": [
                         {
-                            "pos": 334
+                            "pos": 171
                         },
                         {
                             "pos": 0
@@ -11744,15 +9015,15 @@
                     },
                     "macroActionConditionSplitterPosition": [
                         {
-                            "pos": 477
+                            "pos": 266
                         },
                         {
-                            "pos": 263
+                            "pos": 146
                         }
                     ],
                     "macroElseActionSplitterPosition": [
                         {
-                            "pos": 231
+                            "pos": 114
                         },
                         {
                             "pos": 0
@@ -11901,18 +9172,18 @@
                     },
                     "macroActionConditionSplitterPosition": [
                         {
-                            "pos": 205
+                            "pos": 241
                         },
                         {
-                            "pos": 535
+                            "pos": 171
                         }
                     ],
                     "macroElseActionSplitterPosition": [
                         {
-                            "pos": 252
+                            "pos": 70
                         },
                         {
-                            "pos": 251
+                            "pos": 69
                         }
                     ],
                     "registerHotkeys": false,
@@ -11967,7 +9238,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": true,
+                                "enabled": false,
                                 "version": 1
                             },
                             "id": "systray_notification",
@@ -11981,7 +9252,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": false,
+                                "enabled": true,
                                 "version": 1
                             },
                             "id": "run",
@@ -13399,12 +10670,12 @@
                     "name": "ИНСТРУКЦИЯ и ОБНОВЛЕНИЯ",
                     "group": true,
                     "groupData": {
-                        "collapsed": true,
-                        "size": 3
+                        "collapsed": false,
+                        "size": 2
                     }
                 },
                 {
-                    "name": "⚙️ OBS (Max.mov v0.7)",
+                    "name": "⚙️ OBS (Max.mov v0.8.1)",
                     "group": false,
                     "pauseSaveBehavior": 2,
                     "pause": false,
@@ -13431,7 +10702,7 @@
                         "highlightIfConditionsTrue": false,
                         "runButtonText": "⬇️ Проверить Обновления",
                         "pauseButtonText": "🆘 Открыть Инструкцию",
-                        "unpauseButtonText": "🆘 Закрыть Инструкцию",
+                        "unpauseButtonText": "🆘 Открыть Инструкцию",
                         "conditionsTrueStatusText": "Conditions are true.",
                         "conditionsFalseStatusText": "Conditions are false.",
                         "dockId": "advss-macro-dock-7aa7c7bd-7998-4ac3-b3e8-4e65a6fda13d",
@@ -13565,7 +10836,7 @@
                                 }
                             },
                             "macros": [],
-                            "macro": "⚙️ OBS (Max.mov v0.7)",
+                            "macro": "⚙️ OBS (Max.mov v0.8.1)",
                             "type": 5,
                             "condition": 0,
                             "count": {
@@ -13656,14 +10927,14 @@
                     "inputVariables": []
                 },
                 {
-                    "name": "🎦 Инструкция 2",
+                    "name": "🆕 НОВИНКА!!!",
                     "group": false,
                     "pauseSaveBehavior": 0,
-                    "pause": false,
+                    "pause": true,
                     "parallel": false,
                     "checkConditionsInParallel": false,
                     "onChange": true,
-                    "skipExecOnStart": true,
+                    "skipExecOnStart": false,
                     "stopActionsIfNotDone": false,
                     "useShortCircuitEvaluation": false,
                     "useCustomConditionCheckInterval": false,
@@ -13676,30 +10947,30 @@
                         "version": 1
                     },
                     "dockSettings": {
-                        "register": false,
+                        "register": true,
                         "hasRunButton": true,
-                        "hasPauseButton": true,
+                        "hasPauseButton": false,
                         "hasStatusLabel": false,
                         "highlightIfConditionsTrue": false,
-                        "runButtonText": "🆘 Открыть Инструкцию",
-                        "pauseButtonText": "",
-                        "unpauseButtonText": "",
+                        "runButtonText": "ℹ️ НАЖМИТЕ, ЧТОБЫ ОТКРЫТЬ NTCHFFs ОВЕРЛЕЙ (ALT+Z)",
+                        "pauseButtonText": "🚫 Подсказки",
+                        "unpauseButtonText": "ℹ️ Подсказки",
                         "conditionsTrueStatusText": "Conditions are true.",
                         "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "advss-macro-dock-89fb5898-3020-4136-ab12-e758ef83bd54",
+                        "dockId": "advss-macro-dock-bb788280-1b17-41a2-88f2-288ddd830aeb",
                         "version": 1
                     },
                     "macroActionConditionSplitterPosition": [
                         {
-                            "pos": 206
+                            "pos": 208
                         },
                         {
-                            "pos": 206
+                            "pos": 204
                         }
                     ],
                     "macroElseActionSplitterPosition": [
                         {
-                            "pos": 174
+                            "pos": 172
                         },
                         {
                             "pos": 0
@@ -13709,48 +10980,7 @@
                     "pauseHotkey": [],
                     "unpauseHotkey": [],
                     "togglePauseHotkey": [],
-                    "conditions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "macro",
-                            "logic": 1,
-                            "durationModifier": {
-                                "time_constraint": 0,
-                                "seconds": {
-                                    "value": {
-                                        "value": 0.0,
-                                        "type": 0
-                                    },
-                                    "unit": 0,
-                                    "version": 1
-                                }
-                            },
-                            "macros": [],
-                            "macro": "⚙️ OBS (Max.mov v0.7)",
-                            "type": 5,
-                            "condition": 0,
-                            "count": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "multiStateCount": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "multiStateCondition": 2,
-                            "actionIndex": {
-                                "value": 1,
-                                "type": 0
-                            },
-                            "version": 1
-                        }
-                    ],
+                    "conditions": [],
                     "actions": [
                         {
                             "segmentSettings": {
@@ -13760,14 +10990,29 @@
                                 "enabled": true,
                                 "version": 1
                             },
-                            "id": "window",
-                            "action": 3,
-                            "window": "OBSidian",
-                            "regex": {
-                                "enable": true,
-                                "partial": true,
-                                "options": 0
-                            }
+                            "id": "hotkey",
+                            "action": 0,
+                            "hotkeyType": 0,
+                            "hotkeyName": "obs-plugin-overlay.toggle_overlay",
+                            "key": 0,
+                            "left_shift": false,
+                            "right_shift": false,
+                            "left_ctrl": false,
+                            "right_ctrl": false,
+                            "left_alt": false,
+                            "right_alt": false,
+                            "left_meta": false,
+                            "right_meta": false,
+                            "duration": {
+                                "value": {
+                                    "value": 0.3,
+                                    "type": 0
+                                },
+                                "unit": 0,
+                                "version": 1
+                            },
+                            "onlyOBS": false,
+                            "version": 2
                         }
                     ],
                     "elseActions": [],
@@ -13945,8 +11190,8 @@
                 }
             ],
             "saveWindowGeo": false,
-            "windowPosX": 965,
-            "windowPosY": 387,
+            "windowPosX": 918,
+            "windowPosY": -865,
             "windowWidth": 1000,
             "windowHeight": 600,
             "macroListMacroEditSplitterPosition": [
@@ -13976,11 +11221,34 @@
             "mqttConnections": [],
             "twitchConnections": [],
             "actionQueues": []
+        },
+        "ntchffs-overlay.settings": {
+            "position": 0,
+            "margin": 0,
+            "orientation": 0,
+            "auto_hide_enabled": false,
+            "auto_hide_seconds": 5,
+            "indicators_enabled": true,
+            "indicators_position": 5,
+            "smart_replay": true,
+            "gallery_in_overlay": false,
+            "gallery_export_path": "",
+            "capture_focus": true,
+            "overlay_background_alpha": 0.88
+        },
+        "ntchffs-overlay.hotkeys": {
+            "toggle_overlay": [
+                {
+                    "alt": true,
+                    "key": "OBS_KEY_Z"
+                }
+            ],
+            "save_replay": []
         }
     },
     "resolution": {
-        "x": 3440,
-        "y": 1440
+        "x": 1920,
+        "y": 1080
     },
     "version": 2
 }
