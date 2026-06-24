@@ -942,7 +942,7 @@
                     {
                         "name": "🎮 Игра",
                         "source_uuid": "43c5123d-6235-45c8-b762-8674637dbb7f",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
@@ -1653,29 +1653,7 @@
             "private_settings": {}
         }
     ],
-    "quick_transitions": [
-        {
-            "name": "Обрезка",
-            "duration": 300,
-            "hotkeys": [],
-            "id": 4,
-            "fade_to_black": false
-        },
-        {
-            "name": "Затухание",
-            "duration": 300,
-            "hotkeys": [],
-            "id": 5,
-            "fade_to_black": false
-        },
-        {
-            "name": "Затухание",
-            "duration": 300,
-            "hotkeys": [],
-            "id": 6,
-            "fade_to_black": true
-        }
-    ],
+    "quick_transitions": [],
     "transitions": [],
     "saved_projectors": [],
     "canvases": [],
@@ -1683,7 +1661,7 @@
     "transition_duration": 300,
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": -5,
+    "scaling_level": -3,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "modules": {
@@ -1767,15 +1745,15 @@
                     },
                     "macroActionConditionSplitterPosition": [
                         {
-                            "pos": 290
+                            "pos": 343
                         },
                         {
-                            "pos": 386
+                            "pos": 69
                         }
                     ],
                     "macroElseActionSplitterPosition": [
                         {
-                            "pos": 354
+                            "pos": 37
                         },
                         {
                             "pos": 0
@@ -1855,7 +1833,7 @@
                                 "name": "🖥️ Экран"
                             },
                             "condition": 2,
-                            "settings": "{\n    \"force_sdr\": false,\n    \"method\": 0,\n    \"monitor_id\": \"\\\\\\\\?\\\\DISPLAY#XMI2001#5&1a2eee28&0&UID4354#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}\"\n}\n",
+                            "settings": "{\n    \"force_sdr\": false,\n    \"method\": 0,\n    \"monitor_id\": \"\\\\\\\\?\\\\DISPLAY#ITE9320#5&1a2eee28&9&UID4353#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}\"\n}\n",
                             "regexConfig": {
                                 "enable": false,
                                 "partial": false,
@@ -2503,7 +2481,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": false,
+                                "enabled": true,
                                 "version": 1
                             },
                             "id": "systray_notification",
@@ -2517,7 +2495,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": true,
+                                "enabled": false,
                                 "version": 1
                             },
                             "id": "run",
@@ -2780,7 +2758,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": false,
+                                "enabled": true,
                                 "version": 1
                             },
                             "id": "systray_notification",
@@ -2794,7 +2772,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": true,
+                                "enabled": false,
                                 "version": 1
                             },
                             "id": "run",
@@ -2922,7 +2900,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": false,
+                                "enabled": true,
                                 "version": 1
                             },
                             "id": "systray_notification",
@@ -2936,7 +2914,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": true,
+                                "enabled": false,
                                 "version": 1
                             },
                             "id": "run",
@@ -4088,7 +4066,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": false,
+                                "enabled": true,
                                 "version": 1
                             },
                             "id": "systray_notification",
@@ -4102,7 +4080,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": true,
+                                "enabled": false,
                                 "version": 1
                             },
                             "id": "run",
@@ -4963,7 +4941,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": false,
+                                "enabled": true,
                                 "version": 1
                             },
                             "id": "systray_notification",
@@ -4977,7 +4955,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": true,
+                                "enabled": false,
                                 "version": 1
                             },
                             "id": "run",
@@ -5226,7 +5204,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": false,
+                                "enabled": true,
                                 "version": 1
                             },
                             "id": "systray_notification",
@@ -5240,7 +5218,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": true,
+                                "enabled": false,
                                 "version": 1
                             },
                             "id": "run",
@@ -5388,7 +5366,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": false,
+                                "enabled": true,
                                 "version": 1
                             },
                             "id": "systray_notification",
@@ -5402,7 +5380,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": true,
+                                "enabled": false,
                                 "version": 1
                             },
                             "id": "run",
@@ -5519,7 +5497,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": false,
+                                "enabled": true,
                                 "version": 1
                             },
                             "id": "systray_notification",
@@ -5533,7 +5511,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": true,
+                                "enabled": false,
                                 "version": 1
                             },
                             "id": "run",
@@ -5668,7 +5646,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": false,
+                                "enabled": true,
                                 "version": 1
                             },
                             "id": "systray_notification",
@@ -5682,7 +5660,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": true,
+                                "enabled": false,
                                 "version": 1
                             },
                             "id": "run",
@@ -5829,7 +5807,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": false,
+                                "enabled": true,
                                 "version": 1
                             },
                             "id": "systray_notification",
@@ -5843,7 +5821,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": true,
+                                "enabled": false,
                                 "version": 1
                             },
                             "id": "run",
@@ -6403,7 +6381,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": false,
+                                "enabled": true,
                                 "version": 1
                             },
                             "id": "systray_notification",
@@ -6417,7 +6395,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": true,
+                                "enabled": false,
                                 "version": 1
                             },
                             "id": "run",
@@ -7219,7 +7197,7 @@
                     "name": "ПОДСКАЗКИ",
                     "group": true,
                     "groupData": {
-                        "collapsed": false,
+                        "collapsed": true,
                         "size": 5
                     }
                 },
@@ -7227,7 +7205,7 @@
                     "name": "🎦 Тип Уведомлений и Подсказок",
                     "group": false,
                     "pauseSaveBehavior": 0,
-                    "pause": true,
+                    "pause": false,
                     "parallel": false,
                     "checkConditionsInParallel": false,
                     "onChange": true,
@@ -7433,7 +7411,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": false,
+                                "enabled": true,
                                 "version": 1
                             },
                             "id": "systray_notification",
@@ -7447,7 +7425,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": true,
+                                "enabled": false,
                                 "version": 1
                             },
                             "id": "run",
@@ -8911,7 +8889,7 @@
                     "name": "БЫСТРЫЙ ПРОСМОТР",
                     "group": true,
                     "groupData": {
-                        "collapsed": false,
+                        "collapsed": true,
                         "size": 3
                     }
                 },
@@ -8970,6 +8948,7 @@
                     "unpauseHotkey": [],
                     "togglePauseHotkey": [
                         {
+                            "control": true,
                             "alt": true,
                             "key": "OBS_KEY_F11"
                         }
@@ -9238,7 +9217,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": false,
+                                "enabled": true,
                                 "version": 1
                             },
                             "id": "systray_notification",
@@ -9252,7 +9231,7 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": true,
+                                "enabled": false,
                                 "version": 1
                             },
                             "id": "run",
@@ -10934,7 +10913,7 @@
                     "parallel": false,
                     "checkConditionsInParallel": false,
                     "onChange": true,
-                    "skipExecOnStart": false,
+                    "skipExecOnStart": true,
                     "stopActionsIfNotDone": false,
                     "useShortCircuitEvaluation": false,
                     "useCustomConditionCheckInterval": false,
@@ -11115,12 +11094,7 @@
             "startHotkey": [],
             "stopHotkey": [],
             "toggleHotkey": [],
-            "newMacroHotkey": [
-                {
-                    "control": true,
-                    "key": "OBS_KEY_N"
-                }
-            ],
+            "newMacroHotkey": [],
             "upMacroSegmentHotkey": [],
             "downMacroSegmentHotkey": [],
             "removeMacroSegmentHotkey": [],
@@ -11190,8 +11164,8 @@
                 }
             ],
             "saveWindowGeo": false,
-            "windowPosX": 918,
-            "windowPosY": -865,
+            "windowPosX": 1352,
+            "windowPosY": 348,
             "windowWidth": 1000,
             "windowHeight": 600,
             "macroListMacroEditSplitterPosition": [

@@ -1,0 +1,1 @@
+{"rate_control":"CRF","keyint_sec":2,"preset":"veryfast","profile":"high","crf":23,"x264opts":"ref=2 no-mixed-refs=0 trellis=1 bframes=0 rc_lookahead=30 scenecut=20 -aq-mode 1 aq-strength=1.5 weightp=2"}
