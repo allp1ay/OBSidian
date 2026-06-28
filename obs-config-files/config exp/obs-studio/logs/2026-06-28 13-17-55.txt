@@ -1,0 +1,446 @@
+13:17:55.323: ================================
+13:17:55.323: Warning: OBS is already running!
+13:17:55.323: ================================
+13:17:55.323: User is now running multiple instances of OBS!
+13:17:55.323: Crash or unclean shutdown detected
+13:17:56.682: [Safe Mode] Normal launch selected, loading third-party plugins is enabled
+13:17:56.682: Command Line Arguments: --minimize-to-tray --disable-updater --disable-shutdown-check --disable-missing-files-check
+13:17:56.682: CPU Name: AMD Ryzen 7 7700 8-Core Processor              
+13:17:56.682: CPU Speed: 3800MHz
+13:17:56.682: Physical Cores: 8, Logical Cores: 16
+13:17:56.682: Physical Memory: 32361MB Total, 26292MB Free
+13:17:56.682: Windows Version: 10.0 Build 26200 (release: 25H2; revision: 8524; 64-bit)
+13:17:56.683: Running as administrator: true
+13:17:56.683: Windows 10/11 Gaming Features:
+13:17:56.683: 	Game DVR: On
+13:17:56.683: 	Game Mode: On
+13:17:56.683: Sec. Software Status:
+13:17:56.684: 	Антивирусная программа Microsoft Defender: enabled (AV)
+13:17:56.684: 	Брандмауэр Windows: enabled (FW)
+13:17:56.684: Current Date/Time: 2026-06-28, 13:17:56
+13:17:56.684: Browser Hardware Acceleration: false
+13:17:56.684: Hide OBS windows from screen capture: false
+13:17:56.684: Qt Version: 6.8.3 (runtime), 6.8.3 (compiled)
+13:17:56.684: Portable mode: true
+13:17:56.730: OBS 32.1.2 (64-bit, windows)
+13:17:56.730: ---------------------------------
+13:17:56.773: ---------------------------------
+13:17:56.773: audio settings reset:
+13:17:56.773: 	samples per sec: 48000
+13:17:56.773: 	speakers:        2
+13:17:56.773: 	max buffering:   960 milliseconds
+13:17:56.773: 	buffering type:  dynamically increasing
+13:17:56.790: ---------------------------------
+13:17:56.790: Initializing D3D11...
+13:17:56.790: Available Video Adapters: 
+13:17:56.811: 	Adapter 0: NVIDIA GeForce RTX 2060 SUPER
+13:17:56.811: 	  Dedicated VRAM: 8394899456 (7.8 GiB)
+13:17:56.811: 	  Shared VRAM:    16967002112 (15.8 GiB)
+13:17:56.811: 	  PCI ID:         10de:1f06
+13:17:56.811: 	  HAGS Status:    Enabled (Default: No, Driver status: Supported)
+13:17:56.811: 	  Driver Version: 32.0.16.1047
+13:17:56.812: 	  output 0:
+13:17:56.812: 	    name=Mi monitor
+13:17:56.812: 	    pos={0, 0}
+13:17:56.812: 	    size={3440, 1440}
+13:17:56.812: 	    attached=true
+13:17:56.812: 	    refresh=180
+13:17:56.812: 	    bits_per_color=8
+13:17:56.812: 	    space=RGB_FULL_G22_NONE_P709
+13:17:56.812: 	    primaries=[r=(0.672852, 0.311523), g=(0.259766, 0.670898), b=(0.156250, 0.067383), wp=(0.307617, 0.327148)]
+13:17:56.812: 	    relative_gamut_area=[709=1.278468, P3=0.942450, 2020=0.676145]
+13:17:56.812: 	    sdr_white_nits=80
+13:17:56.812: 	    nit_range=[min=0.500000, max=270.000000, max_full_frame=270.000000]
+13:17:56.812: 	    dpi=96 (100%)
+13:17:56.812: 	    id=\\?\DISPLAY#XMI2001#5&1a2eee28&9&UID4354#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+13:17:56.812: 	    alt_id=\\.\DISPLAY1
+13:17:56.813: 	  output 1:
+13:17:56.813: 	    name=ITE6802
+13:17:56.813: 	    pos={3440, 0}
+13:17:56.813: 	    size={2560, 1440}
+13:17:56.813: 	    attached=true
+13:17:56.813: 	    refresh=60
+13:17:56.813: 	    bits_per_color=8
+13:17:56.813: 	    space=RGB_FULL_G22_NONE_P709
+13:17:56.813: 	    primaries=[r=(0.632812, 0.339844), g=(0.310547, 0.632812), b=(0.158203, 0.060547), wp=(0.313477, 0.329102)]
+13:17:56.813: 	    relative_gamut_area=[709=1.022104, P3=0.753465, 2020=0.540561]
+13:17:56.813: 	    sdr_white_nits=80
+13:17:56.813: 	    nit_range=[min=0.500000, max=270.000000, max_full_frame=270.000000]
+13:17:56.813: 	    dpi=96 (100%)
+13:17:56.813: 	    id=\\?\DISPLAY#ITE9320#5&1a2eee28&9&UID4353#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+13:17:56.813: 	    alt_id=\\.\DISPLAY2
+13:17:56.813: 	  output 2:
+13:17:56.813: 	    name=LG ULTRAWIDE
+13:17:56.813: 	    pos={457, -1080}
+13:17:56.813: 	    size={2560, 1080}
+13:17:56.813: 	    attached=true
+13:17:56.813: 	    refresh=60
+13:17:56.813: 	    bits_per_color=8
+13:17:56.813: 	    space=RGB_FULL_G22_NONE_P709
+13:17:56.813: 	    primaries=[r=(0.651367, 0.332031), g=(0.306641, 0.630859), b=(0.150391, 0.059570), wp=(0.313477, 0.329102)]
+13:17:56.813: 	    relative_gamut_area=[709=1.087150, P3=0.801416, 2020=0.574962]
+13:17:56.813: 	    sdr_white_nits=80
+13:17:56.813: 	    nit_range=[min=0.500000, max=270.000000, max_full_frame=270.000000]
+13:17:56.813: 	    dpi=96 (100%)
+13:17:56.813: 	    id=\\?\DISPLAY#GSM59F1#5&1a2eee28&9&UID4352#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+13:17:56.813: 	    alt_id=\\.\DISPLAY3
+13:17:56.814: Loading up D3D11 on adapter NVIDIA GeForce RTX 2060 SUPER (0)
+13:17:56.934: D3D11 loaded successfully, feature level used: b000
+13:17:56.934: DXGI increase maximum frame latency success
+13:17:56.934: Hardware-Accelerated GPU Scheduling enabled on adapter!
+13:17:56.940: D3D11 GPU priority setup success
+13:17:57.205: ---------------------------------
+13:17:57.205: video settings reset:
+13:17:57.205: 	base resolution:   1920x1080
+13:17:57.205: 	output resolution: 1920x1080
+13:17:57.205: 	downscale filter:  Bicubic
+13:17:57.205: 	fps:               60/1
+13:17:57.205: 	format:            NV12
+13:17:57.205: 	YUV mode:          Rec. 709/Partial
+13:17:57.205: NV12 texture support enabled
+13:17:57.205: P010 texture support not available
+13:17:57.206: Audio monitoring device:
+13:17:57.206: 	name: По умолчанию
+13:17:57.206: 	id: default
+13:17:57.220: ---------------------------------
+13:17:57.237: Skipping module '../../obs-plugins/64bit/advanced-scene-switcher-lib.dll', not an OBS plugin
+13:17:57.259: [adv-ss] version: 1.30.2
+13:17:57.259: [adv-ss] version: 20488afdd164c29a83b1a76788cde209494be1ae
+13:17:57.259: [adv-ss] attempting to load "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-base.dll"
+13:17:57.274: [adv-ss] successfully loaded "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-base.dll"
+13:17:57.274: [adv-ss] attempting to load "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-http.dll"
+13:17:57.323: [adv-ss] successfully loaded "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-http.dll"
+13:17:57.323: [adv-ss] attempting to load "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-midi.dll"
+13:17:57.336: [adv-ss] successfully loaded "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-midi.dll"
+13:17:57.336: [adv-ss] attempting to load "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-mqtt.dll"
+13:17:57.349: [adv-ss] successfully loaded "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-mqtt.dll"
+13:17:57.349: [adv-ss] attempting to load "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-opencv.dll"
+13:17:57.456: [adv-ss] successfully loaded "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-opencv.dll"
+13:17:57.456: [adv-ss] attempting to load "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-openvr.dll"
+13:17:57.492: [adv-ss] successfully loaded "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-openvr.dll"
+13:17:57.492: [adv-ss] attempting to load "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-scripting.dll"
+13:17:57.533: [adv-ss] successfully loaded "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-scripting.dll"
+13:17:57.533: [adv-ss] attempting to load "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-stream-deck.dll"
+13:17:57.545: [adv-ss] successfully loaded "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-stream-deck.dll"
+13:17:57.545: [adv-ss] attempting to load "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-twitch.dll"
+13:17:57.560: [adv-ss] successfully loaded "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-twitch.dll"
+13:17:57.560: [adv-ss] attempting to load "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-usb.dll"
+13:17:57.583: [adv-ss] successfully loaded "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-usb.dll"
+13:17:57.583: [adv-ss] attempting to load "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/libcrypto-1_1-x64.dll"
+13:17:57.583: [adv-ss] successfully loaded "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/libcrypto-1_1-x64.dll"
+13:17:57.583: [adv-ss] attempting to load "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/libssl-1_1-x64.dll"
+13:17:57.583: [adv-ss] successfully loaded "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/libssl-1_1-x64.dll"
+13:17:57.583: [adv-ss] attempting to load "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/libusb-1.0.dll"
+13:17:57.583: [adv-ss] successfully loaded "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/libusb-1.0.dll"
+13:17:57.583: [adv-ss] attempting to load "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/opencv_calib3d4100.dll"
+13:17:57.583: [adv-ss] successfully loaded "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/opencv_calib3d4100.dll"
+13:17:57.583: [adv-ss] attempting to load "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/opencv_core4100.dll"
+13:17:57.584: [adv-ss] successfully loaded "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/opencv_core4100.dll"
+13:17:57.584: [adv-ss] attempting to load "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/opencv_features2d4100.dll"
+13:17:57.584: [adv-ss] successfully loaded "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/opencv_features2d4100.dll"
+13:17:57.584: [adv-ss] attempting to load "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/opencv_flann4100.dll"
+13:17:57.584: [adv-ss] successfully loaded "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/opencv_flann4100.dll"
+13:17:57.584: [adv-ss] attempting to load "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/opencv_imgproc4100.dll"
+13:17:57.584: [adv-ss] successfully loaded "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/opencv_imgproc4100.dll"
+13:17:57.584: [adv-ss] attempting to load "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/opencv_objdetect4100.dll"
+13:17:57.584: [adv-ss] successfully loaded "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/opencv_objdetect4100.dll"
+13:17:57.584: [adv-ss] attempting to load "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/openvr_api.dll"
+13:17:57.584: [adv-ss] successfully loaded "D:/2/OBS/obs-plugins/64bit/advanced-scene-switcher-plugins/openvr_api.dll"
+13:17:57.643: No AJA devices found, skipping loading AJA UI plugin
+13:17:57.643: Failed to initialize module 'aja-output-ui.dll'
+13:17:57.659: No AJA devices found, skipping loading AJA plugin
+13:17:57.659: Failed to initialize module 'aja.dll'
+13:17:57.659: Skipping module '../../obs-plugins/64bit/chrome_elf.dll', not an OBS plugin
+13:17:57.693: [CoreAudio encoder]: Adding CoreAudio AAC encoder
+13:17:57.706: Failed to load 'en-US' text for module: 'decklink-captions.dll'
+13:17:57.721: Failed to load 'en-US' text for module: 'decklink-output-ui.dll'
+13:17:57.736: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+13:17:57.736: Failed to initialize module 'decklink.dll'
+13:17:57.760: [Python] Could not load library: ./scripts/Python39/
+13:17:57.788: Failed to load 'en-US' text for module: 'jrdockie.dll'
+13:17:57.788: [jrdockie] plugin loaded successfully (version 1.5)
+13:17:57.789: [jrdockie] Failed to glob dockset file path
+13:17:57.789: Skipping module '../../obs-plugins/64bit/libcef.dll', not an OBS plugin
+13:17:57.811: Skipping module '../../obs-plugins/64bit/libEGL.dll', not an OBS plugin
+13:17:57.841: Skipping module '../../obs-plugins/64bit/libGLESv2.dll', not an OBS plugin
+13:17:57.855: [ntchffs-overlay] plugin loaded successfully (version 1.0.0)
+13:17:57.855: [ntchffs-overlay] Settings loaded from ../../config/obs-studio/plugin_config/ntchffs-overlay/settings.json
+13:17:57.855: [ntchffs-overlay] Smart replay enabled
+13:17:57.855: [ntchffs-overlay] Registered hotkey save/preload callbacks
+13:17:57.855: [ntchffs-overlay] Hotkey registered
+13:17:57.856: [ntchffs-overlay] Registered frontend event callback for overlay creation
+13:17:57.856: [NVIDIA Audio Effects:] NVIDIA denoiser disabled, redistributable not found or could not be loaded.
+13:17:57.856: Failed to get NVVideoEffects.dll version info size
+13:17:57.857: [NVIDIA VIDEO FX]: FX disabled, redistributable not found or could not be loaded.
+13:17:57.870: [obs-browser]: Version 2.26.8
+13:17:57.870: [obs-browser]: CEF Version 127.0.6533.120 (runtime), 127.145.7+g2b7d20b+chromium-127.0.6533.120 (compiled)
+13:17:57.879: [obs-hadowplay] plugin loaded successfully (version 2.3.0)
+13:17:58.019: [obs-nvenc] NVENC version: 12.2 (compiled) / 13.1 (driver), CUDA driver version: 13.30, AV1 supported: false
+13:17:58.063: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.7.3 | RPC Version: 1)
+13:17:58.063: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.8.3 | Qt version (run-time): 6.8.3
+13:17:58.063: [obs-websocket] [obs_module_load] Linked ASIO Version: 103200
+13:17:58.067: [obs-websocket] [obs_module_load] Module loaded.
+13:17:58.069: Failed to load 'ru-RU' text for module: 'smart-auto-capture.dll'
+13:17:58.069: [smart-auto-capture] Smart Auto Capture loaded successfully (version 1.0.0)
+13:17:58.080: [vlc-video]: Couldn't find VLC installation, VLC video source disabled
+13:17:58.086: ---------------------------------
+13:17:58.086:   Loaded Modules:
+13:17:58.086:     win-wasapi.dll
+13:17:58.086:     win-dshow.dll
+13:17:58.086:     win-capture.dll
+13:17:58.086:     vlc-video.dll
+13:17:58.086:     text-freetype2.dll
+13:17:58.086:     SRBeep2.dll
+13:17:58.086:     smart-auto-capture.dll
+13:17:58.086:     rtmp-services.dll
+13:17:58.086:     obs-x264.dll
+13:17:58.086:     obs-websocket.dll
+13:17:58.086:     obs-webrtc.dll
+13:17:58.086:     obs-vst.dll
+13:17:58.086:     obs-transitions.dll
+13:17:58.086:     obs-text.dll
+13:17:58.086:     obs-qsv11.dll
+13:17:58.086:     obs-outputs.dll
+13:17:58.086:     obs-nvenc.dll
+13:17:58.086:     obs-hadowplay.dll
+13:17:58.086:     obs-filters.dll
+13:17:58.086:     obs-ffmpeg.dll
+13:17:58.086:     obs-browser.dll
+13:17:58.086:     nv-filters.dll
+13:17:58.086:     ntchffs-overlay.dll
+13:17:58.086:     jrdockie.dll
+13:17:58.086:     image-source.dll
+13:17:58.086:     frontend-tools.dll
+13:17:58.086:     decklink-output-ui.dll
+13:17:58.086:     decklink-captions.dll
+13:17:58.086:     coreaudio-encoder.dll
+13:17:58.086:     advanced-scene-switcher.dll
+13:17:58.086: ---------------------------------
+13:17:58.086: [obs-websocket] [obs_module_post_load] WebSocket server is enabled, starting...
+13:17:58.086: [obs-websocket] [WebSocketServer::Start] Not locked to IPv4 bindings
+13:17:58.086: [obs-websocket] [WebSocketServer::Start] Listen failed: ������ ����������� ������ ���� ������������� ������ ������ (��������/������� �����/����).
+13:17:58.086: ---------------------------------
+13:17:58.086: Available Encoders:
+13:17:58.086:   Video Encoders:
+13:17:58.086: 	- ffmpeg_svt_av1 (SVT-AV1)
+13:17:58.086: 	- ffmpeg_aom_av1 (AOM AV1)
+13:17:58.086: 	- obs_nvenc_h264_tex (NVIDIA NVENC H.264)
+13:17:58.086: 	- obs_nvenc_hevc_tex (NVIDIA NVENC HEVC)
+13:17:58.086: 	- obs_x264 (x264)
+13:17:58.086:   Audio Encoders:
+13:17:58.086: 	- CoreAudio_AAC (CoreAudio AAC)
+13:17:58.086: 	- ffmpeg_aac (FFmpeg AAC)
+13:17:58.086: 	- ffmpeg_opus (FFmpeg Opus)
+13:17:58.086: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16 бит))
+13:17:58.086: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24 бита))
+13:17:58.086: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32 бита с пл. тчк.))
+13:17:58.086: 	- ffmpeg_alac (FFmpeg ALAC (24 бита))
+13:17:58.086: 	- ffmpeg_flac (FFmpeg FLAC (16 бит))
+13:17:58.086: ==== Startup complete ===============================================
+13:17:58.097: [ntchffs-overlay] Frontend event received: 25
+13:17:58.111: QLabel(0x239488f87b0, name="reset_buffer_on_save_label")  does not have a property named  "icon"
+13:17:58.136: All scene data cleared
+13:17:58.136: ------------------------------------------------
+13:17:58.138: [ntchffs-overlay] Hotkey data preloaded from configuration with key: ntchffs-overlay.hotkeys
+13:17:58.138: [win-wasapi: '🎙️ Микрофон'] update settings:
+13:17:58.138: 	device id: default
+13:17:58.138: 	use device timing: 0
+13:17:58.138: Source ID 'net.nagater.obs.asynchronous-audio-filter' not found
+13:17:58.138: Failed to create source 'Asynchronous Audio Filter'!
+13:17:58.140: Device for 'Audio Output Capture' source 💻 Звук ПК is also used for audio monitoring.
+13:17:58.140: Deduplication logic is being applied to all monitored sources.
+13:17:58.140: [win-wasapi: '💻 Звук ПК'] update settings:
+13:17:58.140: 	device id: default
+13:17:58.140: 	use device timing: 1
+13:17:58.140: Source ID 'net.nagater.obs.asynchronous-audio-filter' not found
+13:17:58.140: Failed to create source 'Asynchronous Audio Filter'!
+13:17:58.141: [win-wasapi: '🟪 Teamspeak 3'] update settings:
+13:17:58.141: 	executable: TeamSpeak.exe
+13:17:58.141: 	title: TeamSpeak 3
+13:17:58.141: 	class: Qt5152QWindowIcon
+13:17:58.141: 	priority: 2
+13:17:58.141: Source ID 'net.nagater.obs.asynchronous-audio-filter' not found
+13:17:58.141: Failed to create source 'Asynchronous Audio Filter'!
+13:17:58.141: [win-wasapi: '🟦 Discord'] update settings:
+13:17:58.141: 	executable: Discord.exe
+13:17:58.141: 	title:  - Discord
+13:17:58.141: 	class: Chrome_WidgetWin_1
+13:17:58.141: 	priority: 2
+13:17:58.141: [win-wasapi: '🟫 Выбрать'] update settings:
+13:17:58.141: 	executable: CalculatorApp.exe
+13:17:58.141: 	title: Калькулятор
+13:17:58.141: 	class: Windows.UI.Core.CoreWindow
+13:17:58.141: 	priority: 2
+13:17:58.141: [WASAPISource::TryInitialize]:[[VIRTUAL_AUDIO_DEVICE_PROCESS_LOOPBACK]] Failed to find window
+13:17:58.141: WASAPI: Device '' failed to start (source: 🟪 Teamspeak 3)
+13:17:58.141: [WASAPISource::TryInitialize]:[[VIRTUAL_AUDIO_DEVICE_PROCESS_LOOPBACK]] Failed to find window
+13:17:58.141: WASAPI: Device '' failed to start (source: 🟦 Discord)
+13:17:58.142: [WASAPISource::TryInitialize]:[[VIRTUAL_AUDIO_DEVICE_PROCESS_LOOPBACK]] Failed to find window
+13:17:58.142: WASAPI: Device '' failed to start (source: 🟫 Выбрать)
+13:17:58.144: Switched to scene '🎦 ЭКРАН'
+13:17:58.144: [ntchffs-overlay] Hotkeys saved to configuration with key: ntchffs-overlay.hotkeys
+13:17:58.144: [adv-ss] connect to 'ws://localhost:4455' started
+13:17:58.145: [adv-ss] connection to ws://localhost:4455 opened
+13:17:58.150: WASAPI: Device 'Analog In 1/2 (ROUTIST RS)' [44100 Hz] initialized (source: 🎙️ Микрофон)
+13:17:58.152: WASAPI: Device 'Analog Out 1/2 (ROUTIST RS)' [44100 Hz] initialized (source: 💻 Звук ПК)
+13:17:58.155: Device for 'Audio Output Capture' source 💻 Звук ПК is also used for audio monitoring.
+13:17:58.155: Deduplication logic is being applied to all monitored sources.
+13:17:58.177: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: 🎙️ Микрофон)
+13:17:58.177: 
+13:17:58.255: [duplicator-monitor-capture: 'smart_auto_capture_child'] update settings:
+13:17:58.255: 	display: ITE6802 (2560x1440)
+13:17:58.255: 	cursor: true
+13:17:58.255: 	method: DXGI
+13:17:58.255: 	id: \\?\DISPLAY#ITE9320#5&1a2eee28&9&UID4353#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+13:17:58.255: 	alt_id: \\.\DISPLAY2
+13:17:58.255: 	setting_id: \\?\DISPLAY#ITE9320#5&1a2eee28&9&UID4353#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+13:17:58.255: 	force SDR: false
+13:17:58.360: ------------------------------------------------
+13:17:58.360: Loaded scenes:
+13:17:58.360: - scene '🎦 ЭКРАН':
+13:17:58.360:     - source: '🎙️ Микрофон' (wasapi_input_capture)
+13:17:58.360:         - filter: 'Asynchronous Audio Filter' (net.nagater.obs.asynchronous-audio-filter)
+13:17:58.360:     - source: '💻 Звук ПК' (wasapi_output_capture)
+13:17:58.360:         - filter: 'Asynchronous Audio Filter' (net.nagater.obs.asynchronous-audio-filter)
+13:17:58.360:     - source: 'Общение' (group)
+13:17:58.360:         - source: '🟪 Teamspeak 3' (wasapi_process_output_capture)
+13:17:58.360:             - filter: 'Asynchronous Audio Filter' (net.nagater.obs.asynchronous-audio-filter)
+13:17:58.360:         - source: '🟦 Discord' (wasapi_process_output_capture)
+13:17:58.360:         - source: '🟫 Выбрать' (wasapi_process_output_capture)
+13:17:58.360:     - source: '🎮 Игра' (smart_auto_capture)
+13:17:58.360: ------------------------------------------------
+13:17:58.361: [ntchffs-overlay] Frontend event received: 14
+13:17:58.361: [ntchffs-overlay] Frontend event received: 13
+13:17:58.361: [ntchffs-overlay] Frontend event received: 8
+13:17:58.361: [ntchffs-overlay] Frontend event received: 24
+13:17:58.362: [adv-ss] started
+13:17:58.447: [ntchffs-overlay] Frontend event received: 26
+13:17:58.447: [ntchffs-overlay] OBS finished loading, creating overlay window...
+13:17:58.447: [ntchffs-overlay] Hotkeys loaded from saved configuration
+13:17:58.447: [ntchffs-overlay] Attempting to create overlay window...
+13:17:58.448: [ntchffs-overlay] Overlay window created successfully
+13:17:58.448: [ntchffs-overlay] OverlayRenderer initialized successfully
+13:17:58.448: [ntchffs-overlay] overlay_window_create: Windows API renderer created successfully
+13:17:58.448: [ntchffs-overlay] Overlay window created successfully
+13:17:58.448: [ntchffs-overlay] Overlay window created but not shown. Use hotkey to toggle visibility.
+13:17:58.448: [ntchffs-overlay] Attempting to create overlay indicators...
+13:17:58.449: [ntchffs-overlay] Overlay window created successfully
+13:17:58.455: [ntchffs-overlay] overlay_indicators_create: indicators initialized
+13:17:58.455: [ntchffs-overlay] Overlay indicators created successfully
+13:17:58.622: CheckDataSignature: Signature check failed for whatsnew
+13:17:58.622: WhatsNewInfoThread::run: Invalid whatsnew signature
+13:17:58.667: [adv-ss] close window "Advanced Scene Switcher"
+13:18:00.452: ==== Shutting down ==================================================
+13:18:00.452: [ntchffs-overlay] Hotkeys saved to configuration with key: ntchffs-overlay.hotkeys
+13:18:00.479: [ntchffs-overlay] Frontend event received: 36
+13:18:00.484: [ntchffs-overlay] Frontend event received: 25
+13:18:00.484: [adv-ss] stopped
+13:18:00.484: WASAPI: Device 'Analog In 1/2 (ROUTIST RS)' Terminated
+13:18:00.485: [adv-ss] client-connection to ws://localhost:4455 closed.
+13:18:00.485: [adv-ss] trying to reconnect to ws://localhost:4455 in 3 seconds.
+13:18:00.485: Deduplication logic stopped.
+13:18:00.485: WASAPI: Device 'Analog Out 1/2 (ROUTIST RS)' Terminated
+13:18:00.486: [adv-ss] reset transition behaviour to adjust active transition type
+13:18:00.486: [adv-ss] started
+13:18:00.487: WASAPI: Device '[VIRTUAL_AUDIO_DEVICE_PROCESS_LOOPBACK]' Terminated
+13:18:00.487: WASAPI: Device '[VIRTUAL_AUDIO_DEVICE_PROCESS_LOOPBACK]' Terminated
+13:18:00.487: WASAPI: Device '[VIRTUAL_AUDIO_DEVICE_PROCESS_LOOPBACK]' Terminated
+13:18:00.505: All scene data cleared
+13:18:00.505: ------------------------------------------------
+13:18:00.505: [obs-hadowplay] Awaiting update thread closure
+13:18:01.445: [obs-hadowplay] Update thread closed
+13:18:01.446: [ntchffs-overlay] Frontend event received: 17
+13:18:01.473: Tried to call obs_frontend_recording_active with no callbacks!
+13:18:01.473: Tried to call obs_frontend_replay_buffer_active with no callbacks!
+13:18:01.476: Tried to call obs_frontend_remove_event_callback with no callbacks!
+13:18:01.478: Tried to call obs_frontend_remove_event_callback with no callbacks!
+13:18:01.527: [smart-auto-capture] Smart Auto Capture unloaded
+13:18:01.528: [obs-websocket] [obs_module_unload] Shutting down...
+13:18:01.528: Tried to call obs_frontend_remove_event_callback with no callbacks!
+13:18:01.528: [obs-websocket] [obs_module_unload] Finished shutting down.
+13:18:01.529: [obs-hadowplay] plugin unloaded
+13:18:01.529: Tried to call obs_frontend_remove_save_callback with no callbacks!
+13:18:01.529: Tried to call obs_frontend_remove_preload_callback with no callbacks!
+13:18:01.529: Tried to call obs_frontend_remove_event_callback with no callbacks!
+13:18:01.536: [ntchffs-overlay] Settings saved to ../../config/obs-studio/plugin_config/ntchffs-overlay/settings.json
+13:18:01.537: [ntchffs-overlay] overlay_window_destroy: Renderer destroyed
+13:18:01.537: [ntchffs-overlay] Overlay window destroyed
+13:18:01.537: [ntchffs-overlay] overlay_indicators_destroy: indicators destroyed
+13:18:01.537: [ntchffs-overlay] Overlay indicators destroyed
+13:18:01.537: [ntchffs-overlay] plugin unloaded
+13:18:01.537: [jrdockie] plugin unloading
+13:18:01.537: [jrdockie] plugin unloaded
+13:18:01.538: [Scripting] Total detached callbacks: 0
+13:18:01.545: [adv-ss] stopped
+13:18:01.545: Freeing OBS context data
+13:18:01.574: == Profiler Results =============================
+13:18:01.574: run_program_init: 4571.48 ms
+13:18:01.574:  ┣OBSApp::AppInit: 71.637 ms
+13:18:01.574:  ┃ ┗OBSApp::InitLocale: 22.052 ms
+13:18:01.574:  ┗OBSApp::OBSInit: 1773.03 ms
+13:18:01.574:    ┣obs_startup: 2.33 ms
+13:18:01.574:    ┗OBSBasic::OBSInit: 1724.32 ms
+13:18:01.574:      ┣OBSBasic::InitBasicConfig: 41.861 ms
+13:18:01.574:      ┣OBSBasic::ResetAudio: 0.166 ms
+13:18:01.574:      ┣OBSBasic::ResetVideo: 433.38 ms
+13:18:01.574:      ┃ ┗obs_init_graphics: 432.496 ms
+13:18:01.574:      ┃   ┗shader compilation: 259.772 ms
+13:18:01.574:      ┣OBSBasic::InitOBSCallbacks: 0.004 ms
+13:18:01.574:      ┣OBSBasic::InitHotkeys: 0.022 ms
+13:18:01.574:      ┣obs_load_all_modules2: 865.299 ms
+13:18:01.574:      ┃ ┣obs_init_module(advanced-scene-switcher.dll): 363.2 ms
+13:18:01.574:      ┃ ┣obs_init_module(aja-output-ui.dll): 0.105 ms
+13:18:01.574:      ┃ ┣obs_init_module(aja.dll): 0.114 ms
+13:18:01.574:      ┃ ┣obs_init_module(coreaudio-encoder.dll): 16.378 ms
+13:18:01.574:      ┃ ┣obs_init_module(decklink-captions.dll): 0 ms
+13:18:01.574:      ┃ ┣obs_init_module(decklink-output-ui.dll): 0 ms
+13:18:01.574:      ┃ ┣obs_init_module(decklink.dll): 1.09 ms
+13:18:01.574:      ┃ ┣obs_init_module(frontend-tools.dll): 2.814 ms
+13:18:01.574:      ┃ ┣obs_init_module(image-source.dll): 0.008 ms
+13:18:01.574:      ┃ ┣obs_init_module(jrdockie.dll): 1.008 ms
+13:18:01.574:      ┃ ┣obs_init_module(ntchffs-overlay.dll): 0.208 ms
+13:18:01.574:      ┃ ┣obs_init_module(nv-filters.dll): 0.617 ms
+13:18:01.574:      ┃ ┣obs_init_module(obs-browser.dll): 0.382 ms
+13:18:01.574:      ┃ ┣obs_init_module(obs-ffmpeg.dll): 0.457 ms
+13:18:01.574:      ┃ ┣obs_init_module(obs-filters.dll): 0.017 ms
+13:18:01.574:      ┃ ┣obs_init_module(obs-hadowplay.dll): 4.794 ms
+13:18:01.574:      ┃ ┣obs_init_module(obs-nvenc.dll): 140.051 ms
+13:18:01.574:      ┃ ┃ ┗nvenc_check: 140.017 ms
+13:18:01.574:      ┃ ┣obs_init_module(obs-outputs.dll): 0.009 ms
+13:18:01.574:      ┃ ┣obs_init_module(obs-qsv11.dll): 37.304 ms
+13:18:01.574:      ┃ ┣obs_init_module(obs-text.dll): 0.594 ms
+13:18:01.574:      ┃ ┣obs_init_module(obs-transitions.dll): 0.004 ms
+13:18:01.574:      ┃ ┣obs_init_module(obs-vst.dll): 0.002 ms
+13:18:01.574:      ┃ ┣obs_init_module(obs-webrtc.dll): 0.006 ms
+13:18:01.574:      ┃ ┣obs_init_module(obs-websocket.dll): 3.851 ms
+13:18:01.574:      ┃ ┣obs_init_module(obs-x264.dll): 0.001 ms
+13:18:01.574:      ┃ ┣obs_init_module(rtmp-services.dll): 0.257 ms
+13:18:01.574:      ┃ ┣obs_init_module(smart-auto-capture.dll): 0.006 ms
+13:18:01.574:      ┃ ┣obs_init_module(SRBeep2.dll): 0.001 ms
+13:18:01.574:      ┃ ┣obs_init_module(text-freetype2.dll): 0.043 ms
+13:18:01.574:      ┃ ┣obs_init_module(vlc-video.dll): 0.025 ms
+13:18:01.574:      ┃ ┣obs_init_module(win-capture.dll): 2.097 ms
+13:18:01.574:      ┃ ┣obs_init_module(win-dshow.dll): 0.601 ms
+13:18:01.574:      ┃ ┣obs_init_module(win-wasapi.dll): 1.169 ms
+13:18:01.574:      ┃ ┗reset_win32_symbol_paths: 0.129 ms
+13:18:01.574:      ┣OBSBasic::InitService: 1.672 ms
+13:18:01.574:      ┣OBSBasic::ResetOutputs: 2.79 ms
+13:18:01.574:      ┣OBSBasic::CreateHotkeys: 0.124 ms
+13:18:01.574:      ┣OBSBasic::InitPrimitives: 0.159 ms
+13:18:01.574:      ┗OBSBasic::Load: 278.534 ms
+13:18:01.574: obs_hotkey_thread(25 ms): min=0.002 ms, median=0.005 ms, max=0.248 ms, 99th percentile=0.177 ms, 100% below 25 ms
+13:18:01.574: audio_thread(Audio): min=0.003 ms, median=0.013 ms, max=0.069 ms, 99th percentile=0.04 ms
+13:18:01.574: obs_graphics_thread(16.6667 ms): min=0.035 ms, median=0.079 ms, max=32.106 ms, 99th percentile=2.257 ms, 99.6124% below 16.667 ms
+13:18:01.574:  ┣tick_sources: min=0 ms, median=0.016 ms, max=3.165 ms, 99th percentile=2.116 ms
+13:18:01.574:  ┣output_frame: min=0.032 ms, median=0.056 ms, max=0.305 ms, 99th percentile=0.21 ms
+13:18:01.574:  ┃ ┗gs_context(video->graphics): min=0.032 ms, median=0.056 ms, max=0.304 ms, 99th percentile=0.21 ms
+13:18:01.574:  ┃   ┣render_video: min=0.002 ms, median=0.01 ms, max=0.112 ms, 99th percentile=0.037 ms
+13:18:01.574:  ┃   ┃ ┗render_main_texture: min=0.001 ms, median=0.009 ms, max=0.111 ms, 99th percentile=0.036 ms
+13:18:01.574:  ┃   ┗gs_flush: min=0.023 ms, median=0.047 ms, max=0.294 ms, 99th percentile=0.165 ms
+13:18:01.574:  ┗render_displays: min=0 ms, median=0 ms, max=31.939 ms, 99th percentile=0.201 ms
+13:18:01.574: =================================================
+13:18:01.574: == Profiler Time Between Calls ==================
+13:18:01.574: obs_hotkey_thread(25 ms): min=24.88 ms, median=25.379 ms, max=26.496 ms, 53.9683% within ±2% of 25 ms (0% lower, 46.0317% higher)
+13:18:01.574: obs_graphics_thread(16.6667 ms): min=1.221 ms, median=16.667 ms, max=32.111 ms, 99.2218% within ±2% of 16.667 ms (0.389105% lower, 0.389105% higher)
+13:18:01.574: =================================================
+13:18:01.775: Number of memory leaks: 1
