@@ -252,7 +252,7 @@
             "settings": {
                 "capture_audio": true,
                 "monitor_id": "\\\\?\\DISPLAY#ITE9320#5&1a2eee28&9&UID4353#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}",
-                "debug_overlay": true
+                "debug_overlay": false
             },
             "mixers": 208,
             "sync": 0,
@@ -1126,7 +1126,7 @@
                                 "name": "🎮 Игра"
                             },
                             "condition": 2,
-                            "settings": "{\n    \"capture_audio\": true,\n    \"debug_overlay\": true,\n    \"monitor_id\": \"\\\\\\\\?\\\\DISPLAY#ITE9320#5&1a2eee28&9&UID4353#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}\"\n}\n",
+                            "settings": "{\n    \"capture_audio\": true,\n    \"debug_overlay\": false,\n    \"monitor_id\": \"\\\\\\\\?\\\\DISPLAY#ITE9320#5&1a2eee28&9&UID4353#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}\"\n}\n",
                             "regexConfig": {
                                 "enable": false,
                                 "partial": false,
